@@ -12,7 +12,7 @@ class Lapor extends CI_Controller {
 	public function lapor()
 	{
 		$data = [
-			'title' => 'Portal Smart City Solo - Lapor',
+			'title' => 'Portal Smart City Bali - Lapor',
 			'link' => 'e_lapor',
 			'js' => [
                 base_url('assets/js_local/pages/e_lapor.js'),
@@ -24,7 +24,7 @@ class Lapor extends CI_Controller {
 	public function service()
 	{
 		$data = [
-			'title' => 'Portal Smart City Solo - Service',
+			'title' => 'Portal Smart City Bali - Service',
 			'link' => 'e_service',
 			'js' => [
                 base_url('assets/js_local/pages/e_service.js'),
