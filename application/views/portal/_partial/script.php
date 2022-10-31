@@ -1,31 +1,28 @@
-<!-- JS --> 
-<script src="<?= base_url('assets/portal/');?>js/jquery.min.js"></script> 
-<script src="<?= base_url('assets/portal/');?>js/bootstrap.min.js"></script> 
-<script src="<?= base_url('assets/portal/');?>js/owl.carousel.min.js"></script> 
-<script src="<?= base_url('assets/portal/');?>js/jquery.prettyPhoto.js"></script> 
-<script src="<?= base_url('assets/portal/');?>js/slick.min.js"></script> 
-<script src="<?= base_url('assets/portal/');?>js/custom.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/plugins/image-uploader/image-uploader.min.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/plugins/uploader/custom.js"></script>
-<script src="<?=base_url();?>assets/plugins/sweet-alert/jquery.sweet-modal.min.js"></script>
-<script src="<?=base_url();?>assets/plugins/sweet-alert/sweetalert.min.js"></script>
-<script src="<?=base_url();?>assets/js/sweet-alert.js"></script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> 
-<!--Rev Slider Start--> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/jquery.themepunch.tools.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/jquery.themepunch.revolution.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.actions.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.migration.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
-<script type="text/javascript" src="<?= base_url('assets/portal/');?>js/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL_aHwpdqEvFPQmhorKU3G4FtzoXIQ6ks&libraries=places,localContext&v=beta&callback=initMap"></script>
-	<script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+		<!-- Jquery Slim JS -->
+        <script src="<?= base_url('bali/');?>assets/js/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="<?= base_url('bali/');?>assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="<?= base_url('bali/');?>assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+        <script src="<?= base_url('bali/');?>assets/js/jquery.meanmenu.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="<?= base_url('bali/');?>assets/js/owl.carousel.min.js"></script>
+        <!-- Magnific Popup JS -->
+        <script src="<?= base_url('bali/');?>assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Nice Select JS -->
+        <script src="<?= base_url('bali/');?>assets/js/nice-select.min.js"></script>
+        <!-- Ajaxchimp JS -->
+		<script src="<?= base_url('bali/');?>assets/js/jquery.ajaxchimp.min.js"></script>
+		<!-- Form Validator JS -->
+		<script src="<?= base_url('bali/');?>assets/js/form-validator.min.js"></script>
+		<!-- Contact JS -->
+        <script src="<?= base_url('bali/');?>assets/js/contact-form-script.js"></script>
+        <!-- Wow JS -->
+        <script src="<?= base_url('bali/');?>assets/js/wow.min.js"></script>
+        <!-- Custom JS -->
+        <script src="<?= base_url('bali/');?>assets/js/main.js"></script>
+		
 <?php 
     $baseUrl = base_url();
 ?>
@@ -72,7 +69,7 @@
         // Create a newDate() object and extract the hours of the current time on the visitor's
         var hours = new Date().getHours();
         // Add a leading zero to the hours value
-        $("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+        $("#jam").html(( hours < 10 ? "0" : "" ) + hours);
         }, 1000);
         
     });

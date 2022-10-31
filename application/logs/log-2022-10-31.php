@@ -9226,3 +9226,1098 @@ INFO - 2022-10-31 11:17:43 --> Model "MYanrat" initialized
 INFO - 2022-10-31 11:17:43 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
 INFO - 2022-10-31 11:17:43 --> Final output sent to browser
 DEBUG - 2022-10-31 11:17:44 --> Total execution time: 1.2940
+ERROR - 2022-10-31 11:38:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:08 --> Config Class Initialized
+INFO - 2022-10-31 11:38:08 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:08 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:08 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:08 --> URI Class Initialized
+INFO - 2022-10-31 11:38:09 --> Router Class Initialized
+INFO - 2022-10-31 11:38:09 --> Output Class Initialized
+INFO - 2022-10-31 11:38:09 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:09 --> Input Class Initialized
+INFO - 2022-10-31 11:38:09 --> Language Class Initialized
+INFO - 2022-10-31 11:38:09 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:09 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:09 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:09 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:09 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:09 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:09 --> Model "MTentang" initialized
+ERROR - 2022-10-31 11:38:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:09 --> Config Class Initialized
+INFO - 2022-10-31 11:38:09 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:09 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:09 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:10 --> URI Class Initialized
+DEBUG - 2022-10-31 11:38:10 --> No URI present. Default controller set.
+INFO - 2022-10-31 11:38:10 --> Router Class Initialized
+INFO - 2022-10-31 11:38:10 --> Output Class Initialized
+INFO - 2022-10-31 11:38:10 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:10 --> Input Class Initialized
+INFO - 2022-10-31 11:38:10 --> Language Class Initialized
+INFO - 2022-10-31 11:38:10 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:10 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:10 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:10 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:10 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:10 --> Model "MArtikel" initialized
+INFO - 2022-10-31 11:38:10 --> Model "MBanner" initialized
+INFO - 2022-10-31 11:38:10 --> Model "MEvent" initialized
+INFO - 2022-10-31 11:38:10 --> Model "MDept" initialized
+INFO - 2022-10-31 11:38:10 --> Model "MTentang" initialized
+INFO - 2022-10-31 11:38:11 --> Model "MYanrat" initialized
+INFO - 2022-10-31 11:38:11 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 11:38:11 --> Final output sent to browser
+DEBUG - 2022-10-31 11:38:11 --> Total execution time: 1.2903
+ERROR - 2022-10-31 11:38:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:21 --> Config Class Initialized
+INFO - 2022-10-31 11:38:21 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:21 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:22 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:22 --> URI Class Initialized
+INFO - 2022-10-31 11:38:22 --> Router Class Initialized
+INFO - 2022-10-31 11:38:22 --> Output Class Initialized
+INFO - 2022-10-31 11:38:22 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:22 --> Input Class Initialized
+INFO - 2022-10-31 11:38:22 --> Language Class Initialized
+INFO - 2022-10-31 11:38:22 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:22 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:22 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:22 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:22 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:22 --> Model "MUsers" initialized
+INFO - 2022-10-31 11:38:22 --> File loaded: E:\xampp\htdocs\baliport\application\views\page/auth/login.php
+INFO - 2022-10-31 11:38:22 --> Final output sent to browser
+DEBUG - 2022-10-31 11:38:22 --> Total execution time: 1.0180
+ERROR - 2022-10-31 11:38:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:25 --> Config Class Initialized
+INFO - 2022-10-31 11:38:25 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:25 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:25 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:25 --> URI Class Initialized
+INFO - 2022-10-31 11:38:25 --> Router Class Initialized
+INFO - 2022-10-31 11:38:25 --> Output Class Initialized
+INFO - 2022-10-31 11:38:25 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:25 --> Input Class Initialized
+INFO - 2022-10-31 11:38:25 --> Language Class Initialized
+INFO - 2022-10-31 11:38:25 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:25 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:25 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:25 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:25 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:25 --> Model "MUsers" initialized
+INFO - 2022-10-31 11:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\page/auth/login.php
+INFO - 2022-10-31 11:38:25 --> Final output sent to browser
+DEBUG - 2022-10-31 11:38:25 --> Total execution time: 0.9128
+ERROR - 2022-10-31 11:38:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:29 --> Config Class Initialized
+INFO - 2022-10-31 11:38:29 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:29 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:29 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:29 --> URI Class Initialized
+INFO - 2022-10-31 11:38:29 --> Router Class Initialized
+INFO - 2022-10-31 11:38:29 --> Output Class Initialized
+INFO - 2022-10-31 11:38:29 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:29 --> Input Class Initialized
+INFO - 2022-10-31 11:38:29 --> Language Class Initialized
+INFO - 2022-10-31 11:38:29 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:30 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:30 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:30 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:30 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:30 --> Model "MUsers" initialized
+ERROR - 2022-10-31 11:38:30 --> Severity: Notice --> Undefined property: stdClass::$lokasi_id E:\xampp\htdocs\baliport\application\controllers\Auth.php 39
+ERROR - 2022-10-31 11:38:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:30 --> Config Class Initialized
+INFO - 2022-10-31 11:38:30 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:30 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:30 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:30 --> URI Class Initialized
+INFO - 2022-10-31 11:38:30 --> Router Class Initialized
+INFO - 2022-10-31 11:38:30 --> Output Class Initialized
+INFO - 2022-10-31 11:38:30 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:30 --> Input Class Initialized
+INFO - 2022-10-31 11:38:31 --> Language Class Initialized
+INFO - 2022-10-31 11:38:31 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:31 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:31 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:31 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:31 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:31 --> Model "MUsers" initialized
+INFO - 2022-10-31 11:38:31 --> Model "MArtikel" initialized
+INFO - 2022-10-31 11:38:31 --> Model "MPengaduan" initialized
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/head.php
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/header.php
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/menu.php
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\page/dashboard.php
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/footer.php
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/script.php
+INFO - 2022-10-31 11:38:31 --> File loaded: E:\xampp\htdocs\baliport\application\views\main.php
+INFO - 2022-10-31 11:38:31 --> Final output sent to browser
+DEBUG - 2022-10-31 11:38:32 --> Total execution time: 1.3992
+ERROR - 2022-10-31 11:38:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2022-10-31 11:38:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2022-10-31 11:38:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:32 --> Config Class Initialized
+INFO - 2022-10-31 11:38:32 --> Config Class Initialized
+INFO - 2022-10-31 11:38:32 --> Hooks Class Initialized
+INFO - 2022-10-31 11:38:32 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:32 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:32 --> Utf8 Class Initialized
+DEBUG - 2022-10-31 11:38:32 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:32 --> Config Class Initialized
+INFO - 2022-10-31 11:38:32 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:32 --> Hooks Class Initialized
+INFO - 2022-10-31 11:38:32 --> URI Class Initialized
+INFO - 2022-10-31 11:38:32 --> URI Class Initialized
+INFO - 2022-10-31 11:38:32 --> Router Class Initialized
+INFO - 2022-10-31 11:38:32 --> Output Class Initialized
+INFO - 2022-10-31 11:38:33 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:33 --> Input Class Initialized
+INFO - 2022-10-31 11:38:33 --> Language Class Initialized
+ERROR - 2022-10-31 11:38:33 --> 404 Page Not Found: Data/artikel
+DEBUG - 2022-10-31 11:38:33 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:33 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:33 --> Router Class Initialized
+INFO - 2022-10-31 11:38:33 --> URI Class Initialized
+INFO - 2022-10-31 11:38:33 --> Router Class Initialized
+INFO - 2022-10-31 11:38:33 --> Output Class Initialized
+INFO - 2022-10-31 11:38:33 --> Security Class Initialized
+INFO - 2022-10-31 11:38:33 --> Output Class Initialized
+DEBUG - 2022-10-31 11:38:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:33 --> Input Class Initialized
+INFO - 2022-10-31 11:38:33 --> Language Class Initialized
+INFO - 2022-10-31 11:38:33 --> Security Class Initialized
+ERROR - 2022-10-31 11:38:33 --> 404 Page Not Found: Data/artikel
+DEBUG - 2022-10-31 11:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:34 --> Input Class Initialized
+INFO - 2022-10-31 11:38:34 --> Language Class Initialized
+ERROR - 2022-10-31 11:38:34 --> 404 Page Not Found: Data/artikel
+ERROR - 2022-10-31 11:38:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:38:34 --> Config Class Initialized
+INFO - 2022-10-31 11:38:34 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:38:34 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:38:34 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:38:34 --> URI Class Initialized
+INFO - 2022-10-31 11:38:34 --> Router Class Initialized
+INFO - 2022-10-31 11:38:34 --> Output Class Initialized
+INFO - 2022-10-31 11:38:34 --> Security Class Initialized
+DEBUG - 2022-10-31 11:38:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:38:35 --> Input Class Initialized
+INFO - 2022-10-31 11:38:35 --> Language Class Initialized
+INFO - 2022-10-31 11:38:35 --> Loader Class Initialized
+INFO - 2022-10-31 11:38:35 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:38:35 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:38:35 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:38:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:38:35 --> Controller Class Initialized
+INFO - 2022-10-31 11:38:35 --> Model "MPengaduan" initialized
+INFO - 2022-10-31 11:38:35 --> Model "MNotif" initialized
+ERROR - 2022-10-31 11:38:35 --> Severity: Error --> Call to undefined method MPengaduan::notify() E:\xampp\htdocs\baliport\application\controllers\Pengaduan.php 190
+ERROR - 2022-10-31 11:39:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:39:05 --> Config Class Initialized
+INFO - 2022-10-31 11:39:05 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:39:05 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:39:05 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:39:05 --> URI Class Initialized
+INFO - 2022-10-31 11:39:05 --> Router Class Initialized
+INFO - 2022-10-31 11:39:05 --> Output Class Initialized
+INFO - 2022-10-31 11:39:05 --> Security Class Initialized
+DEBUG - 2022-10-31 11:39:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:39:05 --> Input Class Initialized
+INFO - 2022-10-31 11:39:05 --> Language Class Initialized
+INFO - 2022-10-31 11:39:05 --> Loader Class Initialized
+INFO - 2022-10-31 11:39:06 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:39:06 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:39:06 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:39:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:39:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:39:06 --> Controller Class Initialized
+INFO - 2022-10-31 11:39:06 --> Model "MUsers" initialized
+INFO - 2022-10-31 11:39:06 --> Model "MArtikel" initialized
+INFO - 2022-10-31 11:39:06 --> Model "MPengaduan" initialized
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/head.php
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/header.php
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/menu.php
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\page/dashboard.php
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/footer.php
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/script.php
+INFO - 2022-10-31 11:39:06 --> File loaded: E:\xampp\htdocs\baliport\application\views\main.php
+INFO - 2022-10-31 11:39:06 --> Final output sent to browser
+DEBUG - 2022-10-31 11:39:06 --> Total execution time: 1.4399
+ERROR - 2022-10-31 11:46:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:46:00 --> Config Class Initialized
+INFO - 2022-10-31 11:46:00 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:46:00 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:46:00 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:46:00 --> URI Class Initialized
+INFO - 2022-10-31 11:46:00 --> Router Class Initialized
+INFO - 2022-10-31 11:46:01 --> Output Class Initialized
+INFO - 2022-10-31 11:46:01 --> Security Class Initialized
+DEBUG - 2022-10-31 11:46:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:46:01 --> Input Class Initialized
+INFO - 2022-10-31 11:46:01 --> Language Class Initialized
+INFO - 2022-10-31 11:46:01 --> Loader Class Initialized
+INFO - 2022-10-31 11:46:01 --> Helper loaded: url_helper
+INFO - 2022-10-31 11:46:01 --> Helper loaded: file_helper
+INFO - 2022-10-31 11:46:01 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 11:46:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 11:46:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 11:46:01 --> Controller Class Initialized
+INFO - 2022-10-31 11:46:01 --> Model "MUsers" initialized
+INFO - 2022-10-31 11:46:01 --> Model "MArtikel" initialized
+INFO - 2022-10-31 11:46:01 --> Model "MPengaduan" initialized
+INFO - 2022-10-31 11:46:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/head.php
+INFO - 2022-10-31 11:46:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/header.php
+INFO - 2022-10-31 11:46:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/menu.php
+INFO - 2022-10-31 11:46:02 --> File loaded: E:\xampp\htdocs\baliport\application\views\page/dashboard.php
+INFO - 2022-10-31 11:46:02 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/footer.php
+INFO - 2022-10-31 11:46:02 --> File loaded: E:\xampp\htdocs\baliport\application\views\_partial/script.php
+INFO - 2022-10-31 11:46:02 --> File loaded: E:\xampp\htdocs\baliport\application\views\main.php
+INFO - 2022-10-31 11:46:02 --> Final output sent to browser
+DEBUG - 2022-10-31 11:46:02 --> Total execution time: 1.5562
+ERROR - 2022-10-31 11:46:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2022-10-31 11:46:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2022-10-31 11:46:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 11:46:02 --> Config Class Initialized
+INFO - 2022-10-31 11:46:02 --> Config Class Initialized
+INFO - 2022-10-31 11:46:02 --> Config Class Initialized
+INFO - 2022-10-31 11:46:02 --> Hooks Class Initialized
+INFO - 2022-10-31 11:46:02 --> Hooks Class Initialized
+INFO - 2022-10-31 11:46:02 --> Hooks Class Initialized
+DEBUG - 2022-10-31 11:46:02 --> UTF-8 Support Enabled
+DEBUG - 2022-10-31 11:46:02 --> UTF-8 Support Enabled
+DEBUG - 2022-10-31 11:46:02 --> UTF-8 Support Enabled
+INFO - 2022-10-31 11:46:02 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:46:02 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:46:02 --> Utf8 Class Initialized
+INFO - 2022-10-31 11:46:02 --> URI Class Initialized
+INFO - 2022-10-31 11:46:02 --> URI Class Initialized
+INFO - 2022-10-31 11:46:02 --> URI Class Initialized
+INFO - 2022-10-31 11:46:02 --> Router Class Initialized
+INFO - 2022-10-31 11:46:02 --> Router Class Initialized
+INFO - 2022-10-31 11:46:02 --> Router Class Initialized
+INFO - 2022-10-31 11:46:02 --> Output Class Initialized
+INFO - 2022-10-31 11:46:03 --> Output Class Initialized
+INFO - 2022-10-31 11:46:03 --> Security Class Initialized
+INFO - 2022-10-31 11:46:03 --> Security Class Initialized
+INFO - 2022-10-31 11:46:03 --> Output Class Initialized
+INFO - 2022-10-31 11:46:03 --> Security Class Initialized
+DEBUG - 2022-10-31 11:46:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2022-10-31 11:46:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2022-10-31 11:46:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 11:46:03 --> Input Class Initialized
+INFO - 2022-10-31 11:46:03 --> Language Class Initialized
+ERROR - 2022-10-31 11:46:03 --> 404 Page Not Found: Data/artikel
+INFO - 2022-10-31 11:46:03 --> Input Class Initialized
+INFO - 2022-10-31 11:46:03 --> Language Class Initialized
+ERROR - 2022-10-31 11:46:03 --> 404 Page Not Found: Data/artikel
+INFO - 2022-10-31 11:46:03 --> Input Class Initialized
+INFO - 2022-10-31 11:46:03 --> Language Class Initialized
+ERROR - 2022-10-31 11:46:03 --> 404 Page Not Found: Data/artikel
+ERROR - 2022-10-31 17:22:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:22:13 --> Config Class Initialized
+INFO - 2022-10-31 17:22:14 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:22:14 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:22:14 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:22:14 --> URI Class Initialized
+INFO - 2022-10-31 17:22:14 --> Router Class Initialized
+INFO - 2022-10-31 17:22:14 --> Output Class Initialized
+INFO - 2022-10-31 17:22:14 --> Security Class Initialized
+DEBUG - 2022-10-31 17:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:22:14 --> Input Class Initialized
+INFO - 2022-10-31 17:22:14 --> Language Class Initialized
+INFO - 2022-10-31 17:22:14 --> Loader Class Initialized
+INFO - 2022-10-31 17:22:14 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:22:14 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:22:15 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:22:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:22:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:22:15 --> Controller Class Initialized
+INFO - 2022-10-31 17:22:15 --> Model "MUsers" initialized
+ERROR - 2022-10-31 17:22:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:22:15 --> Config Class Initialized
+INFO - 2022-10-31 17:22:15 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:22:15 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:22:15 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:22:15 --> URI Class Initialized
+DEBUG - 2022-10-31 17:22:15 --> No URI present. Default controller set.
+INFO - 2022-10-31 17:22:15 --> Router Class Initialized
+INFO - 2022-10-31 17:22:15 --> Output Class Initialized
+INFO - 2022-10-31 17:22:16 --> Security Class Initialized
+DEBUG - 2022-10-31 17:22:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:22:16 --> Input Class Initialized
+INFO - 2022-10-31 17:22:16 --> Language Class Initialized
+INFO - 2022-10-31 17:22:16 --> Loader Class Initialized
+INFO - 2022-10-31 17:22:16 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:22:16 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:22:16 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:22:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:22:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:22:16 --> Controller Class Initialized
+INFO - 2022-10-31 17:22:16 --> Model "MArtikel" initialized
+INFO - 2022-10-31 17:22:16 --> Model "MBanner" initialized
+INFO - 2022-10-31 17:22:16 --> Model "MEvent" initialized
+INFO - 2022-10-31 17:22:16 --> Model "MDept" initialized
+INFO - 2022-10-31 17:22:16 --> Model "MTentang" initialized
+INFO - 2022-10-31 17:22:16 --> Model "MYanrat" initialized
+INFO - 2022-10-31 17:22:17 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:22:17 --> Final output sent to browser
+DEBUG - 2022-10-31 17:22:17 --> Total execution time: 1.4480
+ERROR - 2022-10-31 17:22:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:22:22 --> Config Class Initialized
+INFO - 2022-10-31 17:22:22 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:22:22 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:22:22 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:22:22 --> URI Class Initialized
+INFO - 2022-10-31 17:22:22 --> Router Class Initialized
+INFO - 2022-10-31 17:22:22 --> Output Class Initialized
+INFO - 2022-10-31 17:22:22 --> Security Class Initialized
+DEBUG - 2022-10-31 17:22:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:22:22 --> Input Class Initialized
+INFO - 2022-10-31 17:22:22 --> Language Class Initialized
+INFO - 2022-10-31 17:22:22 --> Loader Class Initialized
+INFO - 2022-10-31 17:22:22 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:22:22 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:22:22 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:22:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:22:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:22:23 --> Controller Class Initialized
+INFO - 2022-10-31 17:22:23 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:22:23 --> Final output sent to browser
+DEBUG - 2022-10-31 17:22:23 --> Total execution time: 0.9773
+ERROR - 2022-10-31 17:23:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:23:40 --> Config Class Initialized
+INFO - 2022-10-31 17:23:40 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:23:40 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:23:40 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:23:40 --> URI Class Initialized
+INFO - 2022-10-31 17:23:40 --> Router Class Initialized
+INFO - 2022-10-31 17:23:40 --> Output Class Initialized
+INFO - 2022-10-31 17:23:40 --> Security Class Initialized
+DEBUG - 2022-10-31 17:23:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:23:40 --> Input Class Initialized
+INFO - 2022-10-31 17:23:40 --> Language Class Initialized
+INFO - 2022-10-31 17:23:41 --> Loader Class Initialized
+INFO - 2022-10-31 17:23:41 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:23:41 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:23:41 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:23:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:23:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:23:41 --> Controller Class Initialized
+INFO - 2022-10-31 17:23:41 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:23:41 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:23:41 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:23:41 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:23:41 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:23:41 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:23:41 --> Final output sent to browser
+DEBUG - 2022-10-31 17:23:41 --> Total execution time: 1.2901
+ERROR - 2022-10-31 17:23:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:23:42 --> Config Class Initialized
+ERROR - 2022-10-31 17:23:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:23:42 --> Hooks Class Initialized
+INFO - 2022-10-31 17:23:42 --> Config Class Initialized
+DEBUG - 2022-10-31 17:23:42 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:23:42 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:23:42 --> Hooks Class Initialized
+INFO - 2022-10-31 17:23:42 --> URI Class Initialized
+DEBUG - 2022-10-31 17:23:42 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:23:42 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:23:42 --> Router Class Initialized
+INFO - 2022-10-31 17:23:42 --> URI Class Initialized
+INFO - 2022-10-31 17:23:42 --> Output Class Initialized
+INFO - 2022-10-31 17:23:42 --> Router Class Initialized
+INFO - 2022-10-31 17:23:42 --> Security Class Initialized
+DEBUG - 2022-10-31 17:23:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:23:42 --> Output Class Initialized
+INFO - 2022-10-31 17:23:42 --> Input Class Initialized
+INFO - 2022-10-31 17:23:42 --> Language Class Initialized
+INFO - 2022-10-31 17:23:42 --> Security Class Initialized
+DEBUG - 2022-10-31 17:23:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2022-10-31 17:23:42 --> 404 Page Not Found: Assets/img
+INFO - 2022-10-31 17:23:42 --> Input Class Initialized
+INFO - 2022-10-31 17:23:43 --> Language Class Initialized
+ERROR - 2022-10-31 17:23:43 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:27:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:27:12 --> Config Class Initialized
+INFO - 2022-10-31 17:27:12 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:27:12 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:27:12 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:27:12 --> URI Class Initialized
+INFO - 2022-10-31 17:27:12 --> Router Class Initialized
+INFO - 2022-10-31 17:27:12 --> Output Class Initialized
+INFO - 2022-10-31 17:27:12 --> Security Class Initialized
+DEBUG - 2022-10-31 17:27:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:27:12 --> Input Class Initialized
+INFO - 2022-10-31 17:27:12 --> Language Class Initialized
+INFO - 2022-10-31 17:27:12 --> Loader Class Initialized
+INFO - 2022-10-31 17:27:12 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:27:12 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:27:12 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:27:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:27:12 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:27:12 --> Controller Class Initialized
+INFO - 2022-10-31 17:27:13 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:27:13 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:27:13 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:27:13 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:27:13 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:27:13 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:27:13 --> Final output sent to browser
+ERROR - 2022-10-31 17:27:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2022-10-31 17:27:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2022-10-31 17:27:13 --> Total execution time: 1.3130
+INFO - 2022-10-31 17:27:13 --> Config Class Initialized
+INFO - 2022-10-31 17:27:13 --> Hooks Class Initialized
+INFO - 2022-10-31 17:27:13 --> Config Class Initialized
+INFO - 2022-10-31 17:27:13 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:27:13 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:27:13 --> Utf8 Class Initialized
+DEBUG - 2022-10-31 17:27:13 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:27:13 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:27:13 --> URI Class Initialized
+INFO - 2022-10-31 17:27:13 --> URI Class Initialized
+INFO - 2022-10-31 17:27:13 --> Router Class Initialized
+INFO - 2022-10-31 17:27:13 --> Router Class Initialized
+INFO - 2022-10-31 17:27:13 --> Output Class Initialized
+INFO - 2022-10-31 17:27:14 --> Output Class Initialized
+INFO - 2022-10-31 17:27:14 --> Security Class Initialized
+INFO - 2022-10-31 17:27:14 --> Security Class Initialized
+DEBUG - 2022-10-31 17:27:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:27:14 --> Input Class Initialized
+DEBUG - 2022-10-31 17:27:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:27:14 --> Input Class Initialized
+INFO - 2022-10-31 17:27:14 --> Language Class Initialized
+INFO - 2022-10-31 17:27:14 --> Language Class Initialized
+ERROR - 2022-10-31 17:27:14 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:27:14 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:29:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:29:03 --> Config Class Initialized
+INFO - 2022-10-31 17:29:03 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:29:03 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:29:03 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:29:03 --> URI Class Initialized
+INFO - 2022-10-31 17:29:03 --> Router Class Initialized
+INFO - 2022-10-31 17:29:03 --> Output Class Initialized
+INFO - 2022-10-31 17:29:03 --> Security Class Initialized
+DEBUG - 2022-10-31 17:29:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:29:04 --> Input Class Initialized
+INFO - 2022-10-31 17:29:04 --> Language Class Initialized
+INFO - 2022-10-31 17:29:04 --> Loader Class Initialized
+INFO - 2022-10-31 17:29:04 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:29:04 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:29:04 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:29:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:29:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:29:04 --> Controller Class Initialized
+INFO - 2022-10-31 17:29:04 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:29:04 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:29:04 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:29:04 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:29:04 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:29:04 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:29:04 --> Final output sent to browser
+ERROR - 2022-10-31 17:29:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2022-10-31 17:29:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2022-10-31 17:29:05 --> Total execution time: 1.4589
+INFO - 2022-10-31 17:29:05 --> Config Class Initialized
+INFO - 2022-10-31 17:29:05 --> Config Class Initialized
+INFO - 2022-10-31 17:29:05 --> Hooks Class Initialized
+INFO - 2022-10-31 17:29:05 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:29:05 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:29:05 --> Utf8 Class Initialized
+DEBUG - 2022-10-31 17:29:05 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:29:05 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:29:05 --> URI Class Initialized
+INFO - 2022-10-31 17:29:05 --> Router Class Initialized
+INFO - 2022-10-31 17:29:05 --> URI Class Initialized
+INFO - 2022-10-31 17:29:05 --> Router Class Initialized
+INFO - 2022-10-31 17:29:05 --> Output Class Initialized
+INFO - 2022-10-31 17:29:05 --> Output Class Initialized
+INFO - 2022-10-31 17:29:05 --> Security Class Initialized
+DEBUG - 2022-10-31 17:29:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:29:05 --> Security Class Initialized
+INFO - 2022-10-31 17:29:05 --> Input Class Initialized
+INFO - 2022-10-31 17:29:05 --> Language Class Initialized
+DEBUG - 2022-10-31 17:29:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:29:05 --> Input Class Initialized
+ERROR - 2022-10-31 17:29:05 --> 404 Page Not Found: Assets/img
+INFO - 2022-10-31 17:29:06 --> Language Class Initialized
+ERROR - 2022-10-31 17:29:06 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:30:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:30:51 --> Config Class Initialized
+INFO - 2022-10-31 17:30:51 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:30:51 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:30:52 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:30:52 --> URI Class Initialized
+INFO - 2022-10-31 17:30:52 --> Router Class Initialized
+INFO - 2022-10-31 17:30:52 --> Output Class Initialized
+INFO - 2022-10-31 17:30:52 --> Security Class Initialized
+DEBUG - 2022-10-31 17:30:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:30:52 --> Input Class Initialized
+INFO - 2022-10-31 17:30:52 --> Language Class Initialized
+INFO - 2022-10-31 17:30:52 --> Loader Class Initialized
+INFO - 2022-10-31 17:30:52 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:30:52 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:30:52 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:30:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:30:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:30:52 --> Controller Class Initialized
+INFO - 2022-10-31 17:30:52 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:30:52 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:30:52 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:30:53 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:30:53 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:30:53 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:30:53 --> Final output sent to browser
+ERROR - 2022-10-31 17:30:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2022-10-31 17:30:53 --> Total execution time: 1.3319
+INFO - 2022-10-31 17:30:53 --> Config Class Initialized
+INFO - 2022-10-31 17:30:53 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:30:53 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:30:53 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:30:53 --> URI Class Initialized
+INFO - 2022-10-31 17:30:53 --> Router Class Initialized
+INFO - 2022-10-31 17:30:53 --> Output Class Initialized
+INFO - 2022-10-31 17:30:53 --> Security Class Initialized
+DEBUG - 2022-10-31 17:30:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:30:54 --> Input Class Initialized
+INFO - 2022-10-31 17:30:54 --> Language Class Initialized
+ERROR - 2022-10-31 17:30:54 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:39:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:39:28 --> Config Class Initialized
+INFO - 2022-10-31 17:39:28 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:39:28 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:39:28 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:39:28 --> URI Class Initialized
+INFO - 2022-10-31 17:39:28 --> Router Class Initialized
+INFO - 2022-10-31 17:39:28 --> Output Class Initialized
+INFO - 2022-10-31 17:39:28 --> Security Class Initialized
+DEBUG - 2022-10-31 17:39:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:39:29 --> Input Class Initialized
+INFO - 2022-10-31 17:39:29 --> Language Class Initialized
+INFO - 2022-10-31 17:39:29 --> Loader Class Initialized
+INFO - 2022-10-31 17:39:29 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:39:29 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:39:29 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:39:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:39:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:39:29 --> Controller Class Initialized
+INFO - 2022-10-31 17:39:29 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:39:29 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:39:29 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:39:29 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:39:29 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:39:29 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:39:29 --> Final output sent to browser
+DEBUG - 2022-10-31 17:39:29 --> Total execution time: 1.2342
+ERROR - 2022-10-31 17:39:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:39:30 --> Config Class Initialized
+INFO - 2022-10-31 17:39:30 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:39:30 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:39:30 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:39:30 --> URI Class Initialized
+INFO - 2022-10-31 17:39:30 --> Router Class Initialized
+INFO - 2022-10-31 17:39:30 --> Output Class Initialized
+INFO - 2022-10-31 17:39:30 --> Security Class Initialized
+DEBUG - 2022-10-31 17:39:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:39:30 --> Input Class Initialized
+INFO - 2022-10-31 17:39:30 --> Language Class Initialized
+ERROR - 2022-10-31 17:39:30 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:43:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:43:24 --> Config Class Initialized
+INFO - 2022-10-31 17:43:24 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:43:25 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:43:25 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:43:25 --> URI Class Initialized
+INFO - 2022-10-31 17:43:25 --> Router Class Initialized
+INFO - 2022-10-31 17:43:25 --> Output Class Initialized
+INFO - 2022-10-31 17:43:25 --> Security Class Initialized
+DEBUG - 2022-10-31 17:43:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:43:25 --> Input Class Initialized
+INFO - 2022-10-31 17:43:25 --> Language Class Initialized
+INFO - 2022-10-31 17:43:25 --> Loader Class Initialized
+INFO - 2022-10-31 17:43:25 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:43:25 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:43:25 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:43:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:43:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:43:25 --> Controller Class Initialized
+INFO - 2022-10-31 17:43:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:43:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:43:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:43:26 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:43:26 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:43:26 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:43:26 --> Final output sent to browser
+DEBUG - 2022-10-31 17:43:26 --> Total execution time: 1.2573
+ERROR - 2022-10-31 17:43:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:43:26 --> Config Class Initialized
+INFO - 2022-10-31 17:43:26 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:43:26 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:43:26 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:43:26 --> URI Class Initialized
+INFO - 2022-10-31 17:43:26 --> Router Class Initialized
+INFO - 2022-10-31 17:43:26 --> Output Class Initialized
+INFO - 2022-10-31 17:43:26 --> Security Class Initialized
+DEBUG - 2022-10-31 17:43:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:43:27 --> Input Class Initialized
+INFO - 2022-10-31 17:43:27 --> Language Class Initialized
+ERROR - 2022-10-31 17:43:27 --> 404 Page Not Found: Assets/img
+ERROR - 2022-10-31 17:47:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:47:26 --> Config Class Initialized
+INFO - 2022-10-31 17:47:26 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:47:27 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:47:27 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:47:27 --> URI Class Initialized
+INFO - 2022-10-31 17:47:27 --> Router Class Initialized
+INFO - 2022-10-31 17:47:27 --> Output Class Initialized
+INFO - 2022-10-31 17:47:27 --> Security Class Initialized
+DEBUG - 2022-10-31 17:47:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:47:27 --> Input Class Initialized
+INFO - 2022-10-31 17:47:27 --> Language Class Initialized
+ERROR - 2022-10-31 17:47:27 --> 404 Page Not Found: Eventhtml/index
+ERROR - 2022-10-31 17:47:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:47:41 --> Config Class Initialized
+INFO - 2022-10-31 17:47:41 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:47:41 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:47:42 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:47:42 --> URI Class Initialized
+INFO - 2022-10-31 17:47:42 --> Router Class Initialized
+INFO - 2022-10-31 17:47:42 --> Output Class Initialized
+INFO - 2022-10-31 17:47:42 --> Security Class Initialized
+DEBUG - 2022-10-31 17:47:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:47:42 --> Input Class Initialized
+INFO - 2022-10-31 17:47:42 --> Language Class Initialized
+INFO - 2022-10-31 17:47:42 --> Loader Class Initialized
+INFO - 2022-10-31 17:47:42 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:47:42 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:47:42 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:47:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:47:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:47:42 --> Controller Class Initialized
+INFO - 2022-10-31 17:47:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:47:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:47:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/kontak.php
+INFO - 2022-10-31 17:47:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:47:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:47:43 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:47:43 --> Final output sent to browser
+DEBUG - 2022-10-31 17:47:43 --> Total execution time: 1.2162
+ERROR - 2022-10-31 17:47:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:47:47 --> Config Class Initialized
+INFO - 2022-10-31 17:47:47 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:47:47 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:47:47 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:47:47 --> URI Class Initialized
+INFO - 2022-10-31 17:47:47 --> Router Class Initialized
+INFO - 2022-10-31 17:47:47 --> Output Class Initialized
+INFO - 2022-10-31 17:47:47 --> Security Class Initialized
+DEBUG - 2022-10-31 17:47:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:47:47 --> Input Class Initialized
+INFO - 2022-10-31 17:47:47 --> Language Class Initialized
+INFO - 2022-10-31 17:47:48 --> Loader Class Initialized
+INFO - 2022-10-31 17:47:48 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:47:48 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:47:48 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:47:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:47:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:47:48 --> Controller Class Initialized
+INFO - 2022-10-31 17:47:48 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:47:48 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:47:48 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 17:47:48 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:47:48 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:47:48 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:47:48 --> Final output sent to browser
+ERROR - 2022-10-31 17:47:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:47:48 --> Config Class Initialized
+DEBUG - 2022-10-31 17:47:48 --> Total execution time: 1.2540
+INFO - 2022-10-31 17:47:48 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:47:49 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:47:49 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:47:49 --> URI Class Initialized
+INFO - 2022-10-31 17:47:49 --> Router Class Initialized
+INFO - 2022-10-31 17:47:49 --> Output Class Initialized
+INFO - 2022-10-31 17:47:49 --> Security Class Initialized
+DEBUG - 2022-10-31 17:47:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:47:49 --> Input Class Initialized
+INFO - 2022-10-31 17:47:49 --> Language Class Initialized
+ERROR - 2022-10-31 17:47:49 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 17:53:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:53:00 --> Config Class Initialized
+INFO - 2022-10-31 17:53:00 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:53:00 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:53:00 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:53:00 --> URI Class Initialized
+INFO - 2022-10-31 17:53:01 --> Router Class Initialized
+INFO - 2022-10-31 17:53:01 --> Output Class Initialized
+INFO - 2022-10-31 17:53:01 --> Security Class Initialized
+DEBUG - 2022-10-31 17:53:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:53:01 --> Input Class Initialized
+INFO - 2022-10-31 17:53:01 --> Language Class Initialized
+INFO - 2022-10-31 17:53:01 --> Loader Class Initialized
+INFO - 2022-10-31 17:53:01 --> Helper loaded: url_helper
+INFO - 2022-10-31 17:53:01 --> Helper loaded: file_helper
+INFO - 2022-10-31 17:53:01 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 17:53:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 17:53:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 17:53:01 --> Controller Class Initialized
+INFO - 2022-10-31 17:53:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 17:53:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 17:53:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 17:53:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 17:53:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 17:53:01 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 17:53:02 --> Final output sent to browser
+DEBUG - 2022-10-31 17:53:02 --> Total execution time: 1.2529
+ERROR - 2022-10-31 17:53:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 17:53:02 --> Config Class Initialized
+INFO - 2022-10-31 17:53:02 --> Hooks Class Initialized
+DEBUG - 2022-10-31 17:53:02 --> UTF-8 Support Enabled
+INFO - 2022-10-31 17:53:02 --> Utf8 Class Initialized
+INFO - 2022-10-31 17:53:02 --> URI Class Initialized
+INFO - 2022-10-31 17:53:02 --> Router Class Initialized
+INFO - 2022-10-31 17:53:02 --> Output Class Initialized
+INFO - 2022-10-31 17:53:02 --> Security Class Initialized
+DEBUG - 2022-10-31 17:53:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 17:53:02 --> Input Class Initialized
+INFO - 2022-10-31 17:53:02 --> Language Class Initialized
+ERROR - 2022-10-31 17:53:02 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 18:38:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:38:16 --> Config Class Initialized
+INFO - 2022-10-31 18:38:16 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:38:16 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:38:16 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:38:16 --> URI Class Initialized
+INFO - 2022-10-31 18:38:16 --> Router Class Initialized
+INFO - 2022-10-31 18:38:17 --> Output Class Initialized
+INFO - 2022-10-31 18:38:17 --> Security Class Initialized
+DEBUG - 2022-10-31 18:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:38:17 --> Input Class Initialized
+INFO - 2022-10-31 18:38:17 --> Language Class Initialized
+INFO - 2022-10-31 18:38:17 --> Loader Class Initialized
+INFO - 2022-10-31 18:38:17 --> Helper loaded: url_helper
+INFO - 2022-10-31 18:38:17 --> Helper loaded: file_helper
+INFO - 2022-10-31 18:38:17 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 18:38:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 18:38:17 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 18:38:18 --> Controller Class Initialized
+INFO - 2022-10-31 18:38:18 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 18:38:18 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 18:38:18 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_service.php
+INFO - 2022-10-31 18:38:18 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 18:38:18 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 18:38:18 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 18:38:18 --> Final output sent to browser
+DEBUG - 2022-10-31 18:38:18 --> Total execution time: 1.9192
+ERROR - 2022-10-31 18:38:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:38:18 --> Config Class Initialized
+INFO - 2022-10-31 18:38:18 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:38:18 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:38:18 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:38:18 --> URI Class Initialized
+INFO - 2022-10-31 18:38:18 --> Router Class Initialized
+INFO - 2022-10-31 18:38:19 --> Output Class Initialized
+INFO - 2022-10-31 18:38:19 --> Security Class Initialized
+DEBUG - 2022-10-31 18:38:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:38:19 --> Input Class Initialized
+INFO - 2022-10-31 18:38:19 --> Language Class Initialized
+ERROR - 2022-10-31 18:38:19 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 18:38:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:38:24 --> Config Class Initialized
+INFO - 2022-10-31 18:38:24 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:38:24 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:38:24 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:38:24 --> URI Class Initialized
+INFO - 2022-10-31 18:38:24 --> Router Class Initialized
+INFO - 2022-10-31 18:38:24 --> Output Class Initialized
+INFO - 2022-10-31 18:38:24 --> Security Class Initialized
+DEBUG - 2022-10-31 18:38:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:38:24 --> Input Class Initialized
+INFO - 2022-10-31 18:38:24 --> Language Class Initialized
+INFO - 2022-10-31 18:38:24 --> Loader Class Initialized
+INFO - 2022-10-31 18:38:24 --> Helper loaded: url_helper
+INFO - 2022-10-31 18:38:24 --> Helper loaded: file_helper
+INFO - 2022-10-31 18:38:25 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 18:38:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 18:38:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 18:38:25 --> Controller Class Initialized
+INFO - 2022-10-31 18:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 18:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 18:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 18:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 18:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 18:38:25 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 18:38:25 --> Final output sent to browser
+DEBUG - 2022-10-31 18:38:25 --> Total execution time: 1.2305
+ERROR - 2022-10-31 18:38:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:38:25 --> Config Class Initialized
+INFO - 2022-10-31 18:38:25 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:38:25 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:38:25 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:38:25 --> URI Class Initialized
+INFO - 2022-10-31 18:38:26 --> Router Class Initialized
+INFO - 2022-10-31 18:38:26 --> Output Class Initialized
+INFO - 2022-10-31 18:38:26 --> Security Class Initialized
+DEBUG - 2022-10-31 18:38:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:38:26 --> Input Class Initialized
+INFO - 2022-10-31 18:38:26 --> Language Class Initialized
+ERROR - 2022-10-31 18:38:26 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 18:46:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:46:41 --> Config Class Initialized
+INFO - 2022-10-31 18:46:41 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:46:41 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:46:41 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:46:41 --> URI Class Initialized
+INFO - 2022-10-31 18:46:41 --> Router Class Initialized
+INFO - 2022-10-31 18:46:41 --> Output Class Initialized
+INFO - 2022-10-31 18:46:41 --> Security Class Initialized
+DEBUG - 2022-10-31 18:46:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:46:41 --> Input Class Initialized
+INFO - 2022-10-31 18:46:41 --> Language Class Initialized
+INFO - 2022-10-31 18:46:41 --> Loader Class Initialized
+INFO - 2022-10-31 18:46:41 --> Helper loaded: url_helper
+INFO - 2022-10-31 18:46:41 --> Helper loaded: file_helper
+INFO - 2022-10-31 18:46:42 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 18:46:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 18:46:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 18:46:42 --> Controller Class Initialized
+INFO - 2022-10-31 18:46:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 18:46:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 18:46:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 18:46:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 18:46:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 18:46:42 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 18:46:42 --> Final output sent to browser
+DEBUG - 2022-10-31 18:46:42 --> Total execution time: 1.3389
+ERROR - 2022-10-31 18:48:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:48:26 --> Config Class Initialized
+INFO - 2022-10-31 18:48:26 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:48:26 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:48:26 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:48:26 --> URI Class Initialized
+INFO - 2022-10-31 18:48:26 --> Router Class Initialized
+INFO - 2022-10-31 18:48:26 --> Output Class Initialized
+INFO - 2022-10-31 18:48:26 --> Security Class Initialized
+DEBUG - 2022-10-31 18:48:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:48:26 --> Input Class Initialized
+INFO - 2022-10-31 18:48:26 --> Language Class Initialized
+INFO - 2022-10-31 18:48:26 --> Loader Class Initialized
+INFO - 2022-10-31 18:48:26 --> Helper loaded: url_helper
+INFO - 2022-10-31 18:48:26 --> Helper loaded: file_helper
+INFO - 2022-10-31 18:48:26 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 18:48:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 18:48:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 18:48:26 --> Controller Class Initialized
+INFO - 2022-10-31 18:48:27 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 18:48:27 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 18:48:27 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 18:48:27 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 18:48:27 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 18:48:27 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 18:48:27 --> Final output sent to browser
+DEBUG - 2022-10-31 18:48:27 --> Total execution time: 1.2394
+ERROR - 2022-10-31 18:48:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:48:27 --> Config Class Initialized
+INFO - 2022-10-31 18:48:27 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:48:27 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:48:27 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:48:27 --> URI Class Initialized
+INFO - 2022-10-31 18:48:27 --> Router Class Initialized
+INFO - 2022-10-31 18:48:27 --> Output Class Initialized
+INFO - 2022-10-31 18:48:27 --> Security Class Initialized
+DEBUG - 2022-10-31 18:48:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:48:28 --> Input Class Initialized
+INFO - 2022-10-31 18:48:28 --> Language Class Initialized
+ERROR - 2022-10-31 18:48:28 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 18:48:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:48:45 --> Config Class Initialized
+INFO - 2022-10-31 18:48:45 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:48:45 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:48:45 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:48:45 --> URI Class Initialized
+INFO - 2022-10-31 18:48:45 --> Router Class Initialized
+INFO - 2022-10-31 18:48:45 --> Output Class Initialized
+INFO - 2022-10-31 18:48:45 --> Security Class Initialized
+DEBUG - 2022-10-31 18:48:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:48:45 --> Input Class Initialized
+INFO - 2022-10-31 18:48:45 --> Language Class Initialized
+INFO - 2022-10-31 18:48:45 --> Loader Class Initialized
+INFO - 2022-10-31 18:48:45 --> Helper loaded: url_helper
+INFO - 2022-10-31 18:48:45 --> Helper loaded: file_helper
+INFO - 2022-10-31 18:48:46 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 18:48:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 18:48:46 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 18:48:46 --> Controller Class Initialized
+INFO - 2022-10-31 18:48:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 18:48:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 18:48:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 18:48:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 18:48:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 18:48:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 18:48:46 --> Final output sent to browser
+DEBUG - 2022-10-31 18:48:46 --> Total execution time: 1.2479
+ERROR - 2022-10-31 18:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 18:50:14 --> Config Class Initialized
+INFO - 2022-10-31 18:50:15 --> Hooks Class Initialized
+DEBUG - 2022-10-31 18:50:15 --> UTF-8 Support Enabled
+INFO - 2022-10-31 18:50:15 --> Utf8 Class Initialized
+INFO - 2022-10-31 18:50:15 --> URI Class Initialized
+INFO - 2022-10-31 18:50:15 --> Router Class Initialized
+INFO - 2022-10-31 18:50:15 --> Output Class Initialized
+INFO - 2022-10-31 18:50:15 --> Security Class Initialized
+DEBUG - 2022-10-31 18:50:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 18:50:15 --> Input Class Initialized
+INFO - 2022-10-31 18:50:15 --> Language Class Initialized
+INFO - 2022-10-31 18:50:15 --> Loader Class Initialized
+INFO - 2022-10-31 18:50:15 --> Helper loaded: url_helper
+INFO - 2022-10-31 18:50:15 --> Helper loaded: file_helper
+INFO - 2022-10-31 18:50:15 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 18:50:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 18:50:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 18:50:15 --> Controller Class Initialized
+INFO - 2022-10-31 18:50:15 --> File loaded: E:\xampp\htdocs\baliport\application\views\map.php
+INFO - 2022-10-31 18:50:15 --> Final output sent to browser
+DEBUG - 2022-10-31 18:50:16 --> Total execution time: 1.0569
+ERROR - 2022-10-31 19:00:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 19:00:57 --> Config Class Initialized
+INFO - 2022-10-31 19:00:57 --> Hooks Class Initialized
+DEBUG - 2022-10-31 19:00:57 --> UTF-8 Support Enabled
+INFO - 2022-10-31 19:00:57 --> Utf8 Class Initialized
+INFO - 2022-10-31 19:00:57 --> URI Class Initialized
+INFO - 2022-10-31 19:00:57 --> Router Class Initialized
+INFO - 2022-10-31 19:00:57 --> Output Class Initialized
+INFO - 2022-10-31 19:00:57 --> Security Class Initialized
+DEBUG - 2022-10-31 19:00:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 19:00:57 --> Input Class Initialized
+INFO - 2022-10-31 19:00:58 --> Language Class Initialized
+INFO - 2022-10-31 19:00:58 --> Loader Class Initialized
+INFO - 2022-10-31 19:00:58 --> Helper loaded: url_helper
+INFO - 2022-10-31 19:00:58 --> Helper loaded: file_helper
+INFO - 2022-10-31 19:00:58 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 19:00:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 19:00:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 19:00:58 --> Controller Class Initialized
+INFO - 2022-10-31 19:00:58 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 19:00:58 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 19:00:58 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_service.php
+INFO - 2022-10-31 19:00:59 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 19:00:59 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 19:00:59 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 19:00:59 --> Final output sent to browser
+DEBUG - 2022-10-31 19:00:59 --> Total execution time: 1.9497
+ERROR - 2022-10-31 19:00:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 19:00:59 --> Config Class Initialized
+INFO - 2022-10-31 19:00:59 --> Hooks Class Initialized
+DEBUG - 2022-10-31 19:00:59 --> UTF-8 Support Enabled
+INFO - 2022-10-31 19:00:59 --> Utf8 Class Initialized
+INFO - 2022-10-31 19:00:59 --> URI Class Initialized
+INFO - 2022-10-31 19:00:59 --> Router Class Initialized
+INFO - 2022-10-31 19:00:59 --> Output Class Initialized
+INFO - 2022-10-31 19:00:59 --> Security Class Initialized
+DEBUG - 2022-10-31 19:00:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 19:00:59 --> Input Class Initialized
+INFO - 2022-10-31 19:00:59 --> Language Class Initialized
+ERROR - 2022-10-31 19:01:00 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 19:01:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 19:01:45 --> Config Class Initialized
+INFO - 2022-10-31 19:01:45 --> Hooks Class Initialized
+DEBUG - 2022-10-31 19:01:45 --> UTF-8 Support Enabled
+INFO - 2022-10-31 19:01:45 --> Utf8 Class Initialized
+INFO - 2022-10-31 19:01:45 --> URI Class Initialized
+INFO - 2022-10-31 19:01:45 --> Router Class Initialized
+INFO - 2022-10-31 19:01:45 --> Output Class Initialized
+INFO - 2022-10-31 19:01:45 --> Security Class Initialized
+DEBUG - 2022-10-31 19:01:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 19:01:46 --> Input Class Initialized
+INFO - 2022-10-31 19:01:46 --> Language Class Initialized
+INFO - 2022-10-31 19:01:46 --> Loader Class Initialized
+INFO - 2022-10-31 19:01:46 --> Helper loaded: url_helper
+INFO - 2022-10-31 19:01:46 --> Helper loaded: file_helper
+INFO - 2022-10-31 19:01:46 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 19:01:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 19:01:46 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 19:01:46 --> Controller Class Initialized
+INFO - 2022-10-31 19:01:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 19:01:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 19:01:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_lapor.php
+INFO - 2022-10-31 19:01:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 19:01:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 19:01:46 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 19:01:47 --> Final output sent to browser
+DEBUG - 2022-10-31 19:01:47 --> Total execution time: 1.4237
+ERROR - 2022-10-31 19:01:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 19:01:47 --> Config Class Initialized
+INFO - 2022-10-31 19:01:47 --> Hooks Class Initialized
+DEBUG - 2022-10-31 19:01:47 --> UTF-8 Support Enabled
+INFO - 2022-10-31 19:01:47 --> Utf8 Class Initialized
+INFO - 2022-10-31 19:01:47 --> URI Class Initialized
+INFO - 2022-10-31 19:01:47 --> Router Class Initialized
+INFO - 2022-10-31 19:01:47 --> Output Class Initialized
+INFO - 2022-10-31 19:01:47 --> Security Class Initialized
+DEBUG - 2022-10-31 19:01:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 19:01:47 --> Input Class Initialized
+INFO - 2022-10-31 19:01:47 --> Language Class Initialized
+ERROR - 2022-10-31 19:01:47 --> 404 Page Not Found: Lapor/assets
+ERROR - 2022-10-31 19:02:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 19:02:08 --> Config Class Initialized
+INFO - 2022-10-31 19:02:08 --> Hooks Class Initialized
+DEBUG - 2022-10-31 19:02:08 --> UTF-8 Support Enabled
+INFO - 2022-10-31 19:02:09 --> Utf8 Class Initialized
+INFO - 2022-10-31 19:02:09 --> URI Class Initialized
+INFO - 2022-10-31 19:02:09 --> Router Class Initialized
+INFO - 2022-10-31 19:02:09 --> Output Class Initialized
+INFO - 2022-10-31 19:02:09 --> Security Class Initialized
+DEBUG - 2022-10-31 19:02:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 19:02:09 --> Input Class Initialized
+INFO - 2022-10-31 19:02:09 --> Language Class Initialized
+INFO - 2022-10-31 19:02:09 --> Loader Class Initialized
+INFO - 2022-10-31 19:02:09 --> Helper loaded: url_helper
+INFO - 2022-10-31 19:02:09 --> Helper loaded: file_helper
+INFO - 2022-10-31 19:02:09 --> Database Driver Class Initialized
+DEBUG - 2022-10-31 19:02:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-10-31 19:02:09 --> Session: Class initialized using 'files' driver.
+INFO - 2022-10-31 19:02:09 --> Controller Class Initialized
+INFO - 2022-10-31 19:02:09 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/head.php
+INFO - 2022-10-31 19:02:09 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/navbar.php
+INFO - 2022-10-31 19:02:09 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/e_service.php
+INFO - 2022-10-31 19:02:09 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/footer.php
+INFO - 2022-10-31 19:02:10 --> File loaded: E:\xampp\htdocs\baliport\application\views\portal/_partial/script.php
+INFO - 2022-10-31 19:02:10 --> File loaded: E:\xampp\htdocs\baliport\application\views\main_portal.php
+INFO - 2022-10-31 19:02:10 --> Final output sent to browser
+DEBUG - 2022-10-31 19:02:10 --> Total execution time: 1.2608
+ERROR - 2022-10-31 19:02:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2022-10-31 19:02:10 --> Config Class Initialized
+INFO - 2022-10-31 19:02:10 --> Hooks Class Initialized
+DEBUG - 2022-10-31 19:02:10 --> UTF-8 Support Enabled
+INFO - 2022-10-31 19:02:10 --> Utf8 Class Initialized
+INFO - 2022-10-31 19:02:10 --> URI Class Initialized
+INFO - 2022-10-31 19:02:10 --> Router Class Initialized
+INFO - 2022-10-31 19:02:10 --> Output Class Initialized
+INFO - 2022-10-31 19:02:10 --> Security Class Initialized
+DEBUG - 2022-10-31 19:02:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-10-31 19:02:10 --> Input Class Initialized
+INFO - 2022-10-31 19:02:10 --> Language Class Initialized
+ERROR - 2022-10-31 19:02:10 --> 404 Page Not Found: Lapor/assets

@@ -27,7 +27,7 @@
 	
 	<script>
 	$(document).ready(function (){
-		getnotif();
+		//getnotif();
 	});
 	function getnotif(){
 		$.ajax({

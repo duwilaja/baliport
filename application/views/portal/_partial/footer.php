@@ -1,82 +1,109 @@
-<footer class="home3 main-footer wf100">
-    <div class="container">
-      <div class="row"> 
-        <!--Footer Widget Start-->
-        <div class="col-md-3 col-sm-6" style="margin-right: 15rem;">
-          <div class="textwidget"> <img src="<?= base_url('assets/portal/');?>img/logoeling.png" style="width:200px;" alt="">
-            <address>
-            <ul>
-              <li>Electronic Policing Smart City Solo</li>
-            </ul>
-            </address>
-          </div>
-        </div>
-        <!--Footer Widget End--> 
-        <!--Footer Widget Start-->
-        <div class="col-md-3 col-sm-6" style="margin-right: 2rem;">
-          <div class="footer-widget">
-            <div class="row">
-              <div class="col-md-12">
-                <span style="font-size: 25px;color: white;">Alamat</span><br>
-                <a href="#" style="color: white;">TMC Surakarta</a>
-              </div>
+		<!-- Start Footer Area -->
+        <section class="footer-area pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-footer-widget">
+                            <a href="#">
+                                <img src="assets/img/logo-jepun-bali-200-n.png" alt="image">
+                            </a>
+
+                            <ul class="social">
+                                <p>Find us on social media :</p>
+                                <li>
+                                    <a href="#" class="facebook" target="_blank">
+                                        <i class='bx bxl-facebook'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter" target="_blank">
+                                        <i class='bx bxl-instagram'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin" target="_blank">
+                                        <i class='bx bxl-twitter'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin" target="_blank">
+                                        <i class='bx bxl-youtube'></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-footer-widget">
+                            <h2>Smart City Bali</h2>
+
+                            <ul class="useful-links-list">
+                                <li>
+                                    <a href="#">Smart Emergency</a>
+                                </li>
+                                <li>
+                                    <a href="#">Smart Management</a>
+                                </li>
+                                <li>
+                                    <a href="#">Smart Meeting</a>
+                                </li>
+                                <li>
+                                    <a href="#">Smart Room</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-footer-widget">
+                            <h2>Contact Us</h2>
+
+                            <ul class="useful-links-list">
+                                <li>
+                                    <a href="#"><i class="bx bx-envelope"></i>  Email : smartcitybali@mail.com</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="bx bx-phone-call"></i> Call Center : 111</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="bx bx-map"></i> TMC Bali</a><br><a>Jl. Gunung Sanghyang No.110, Padangsambian, Kec. Denpasar Bar., Kota Denpasar, Bali 80117</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row" style="margin-top:20px">
-              <div class="col-md-12">
-                <span style="font-size: 25px;color: white;">Email</span><br>
-                <a href="#" style="color: white;">smartcity@surakarta.go.id</a>
-              </div>
+        </section>
+        <!-- End Footer Area -->
+
+        <!-- Start Copy Right Area -->
+        <div class="copyright-area">
+            <div class="container">
+                <div class="copyright-area-content">
+                    <p>
+                        Copyright © <script>document.write(new Date().getFullYear())</script>, by 
+                        <a href="https://envytheme.com/" target="_blank">Jepun Bali Developer</a>
+                    </p>
+                </div>
             </div>
-            <div class="row" style="margin-top:20px">
-              <div class="col-md-12">
-                <span style="font-size: 25px;color: white;">Call Center</span><br>
-                <a href="#" style="color: white;">110</a>
-              </div>
-            </div>
-          </div>
         </div>
-        <!--Footer Widget End--> 
-        <!--Footer Widget Start-->
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-widget">
-            <h6>Download Eling Solo</h6>
-            <ul>
-              <li><a href="https://play.google.com/store/apps/details?id=com.gamatechno.solodestinationnew" target="_blank">Play Store</a></li>
-              <li><a href="https://apps.apple.com/id/app/solo-destination/id1403225542" target="_blank">App Store</a></li>
-            </ul>
-          </div>
+        <!-- End Copy Right Area -->
+
+        <!-- Start Go Top Area -->
+        <div class="go-top">
+            <i class='bx bx-up-arrow-alt'></i>
         </div>
-        <!--Footer Widget End--> 
-        <!--Footer Widget Start-->
-        <!-- <div class="col-md-3 col-sm-6">
-          <div class="twitter-widget">
-            <div class="tw-txt">
-              <h6>@john.flintoff</h6>
-              <a href="#" class="reply-tw"><i class="fas fa-reply"></i></a>
-              <p> The Hightst Glory of the Citizen’s revolution was this; it connected in one indissoluble bond the principles of civil govt. with humanity principles. </p>
-            </div>
-            <div class="tw-footer"> @Balad.gov <strong>3 November, 2019</strong> <i class="fab fa-twitter"></i> </div>
-          </div>
-        </div> -->
-        <!--Footer Widget End--> 
-      </div>
-    </div>
-  </footer>
-  <!--Footer Start--> 
-  <!--Footer Start-->
-  <footer class="home3 footer wf100" style="background-color: black;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-sm-7">
-          <p class="copyr" style="color: white !important;">Copy Rights © 2021, By: <a href="#">Eling Solo Developer</a></p>
+        <!-- End Go Top Area -->
+
+        <!-- dark version -->
+        <div class="dark-version">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
         </div>
-        <div class="col-md-5 col-sm-5">
-          <ul class="footer-social">
-            <li><a href="https://www.facebook.com/ElingSolo-104905528762989" target="_blank" class="fb"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com/Staffelingsolo" target="_blank" class="tw"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/staffelingsolo/" target="_blank" class="insta"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+        <!-- dark version -->

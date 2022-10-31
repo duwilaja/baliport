@@ -1,60 +1,150 @@
+		<!-- Start Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="wrapper">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-1a"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                </div>
+                <span>Loading...</span>
+            </div>
+        </div>
+        <!-- End Preloader -->
 
-          <header class="wf100 header">
-            <div class="topbar" style="background-color: black;">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-6 col-sm-6">
-                        <ul class="left-links">
-                           <!-- <li> <a href="#">Council</a> </li>
-                           <li> <a href="#">Vacancies</a> </li>
-                           <li> <a href="#">Report It</a> </li>
-                           <li> <a href="#">A-Z Index</a> </li>
-                          <li> <a href="#">A-Z Index</a> </li> -->
+        <!-- Start Top Header Area -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="top-header-social">
+                            <li>
+                                <i class='bx bx-calendar'></i>
+                                <a href="#">Call Center :<strong> 111</strong></a>
+                            </li>
                         </ul>
-                     </div>
-                     <div class="col-md-6 col-sm-6">
-                        <ul class="right-links">
-                          <li> <a href="#">Call Center: <strong>110</strong></a> </li>
-                           <li> <a href="#"><span id="Date"></span>, <strong id="hours"></strong> : <strong id="min"></strong> : <strong id="sec"></strong></a> </li>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <ul class="top-header-others">
+
+                            <li>
+                                <i class='bx bx-calendar'></i>
+                                <a href="#"><span id="Date"></span> | <span id="jam"></span>:<span id="min"></span>:<span id="sec"></span></a>
+                            </li>
                         </ul>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-            <div class="logo-nav-row">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <nav class="navbar">
-                           <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                              <a class="navbar-brand" href="<?=base_url()?>"><img src="<?= base_url('assets/portal/img/logoeling.png')?>" style="width:152px; height:52px" alt=""></a> 
-                           </div>
-                           <!-- Collect the nav links, forms, and other content for toggling -->
-                           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li> <a href="<?=base_url()?>">Beranda</a></li>
-                                <li> <a href="<?=base_url('Portal/tentang')?>">Tentang</a></li>
-                                <li> <a href="<?=base_url('Portal/dept')?>">Departemen</a></li>
-                                <li> <a href="<?=base_url('Portal/berita')?>">Berita</a></li>
-                                <li> <a href="<?=base_url('Portal/event')?>">Event</a></li>
-                                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Layanan <span class="caret"></span></a>
-                                  <ul class="dropdown-menu">
-                                    <li><a href="<?=base_url('Lapor/lapor')?>">E-Lapor</a></li>
-                                    <li><a href="<?=base_url('Lapor/service')?>">E-Service</a></li>
-                                  </ul>
+        </div>
+        <!-- End Top Header Area -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area">
+            <div class="main-responsive-nav">
+                <div class="container">
+                    <div class="main-responsive-menu">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="black-logo" alt="image">
+                                <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="white-logo" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-navbar">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="black-logo" alt="image">
+                            <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="white-logo" alt="image">
+                        </a>
+
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">
+                                        Home 
+                                    </a>
                                 </li>
-                                <li> <a href="<?=base_url('Portal/maps')?>">Eksplorasi Kota</a></li>
-                                <li> <a href="<?=base_url('Kontak')?>">Kontak</a></li>
-                              </ul>
-                              <ul class="nav navbar-nav navbar-right">
-                                 <!-- <li class="search-btn"><a class="search-icon" href="#search"> <i class="fas fa-search"></i> </a></li>
-                                 <li class="bars-btn"><a href="#"><img src="images/bars.png" alt=""></a></li> -->
-                              </ul>
-                           </div>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
+
+                                <li class="nav-item">
+                                    <a href="explore.html" class="nav-link">
+                                        Explore
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="event.html" class="nav-link">
+                                        Event
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link <?php echo ($link=='e_lapor'||$link=='e_service')?"active":"";?>">
+                                        Public Service 
+                                        <i class='bx bx-chevron-down'></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item <?php echo ($link=='e_lapor')?"active":"";?>">
+                                            <a href="<?= base_url("lapor/lapor");?>" class="nav-link ">
+                                                E-Lapor
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item <?php echo ($link=='e_service')?"active":"";?>">
+                                            <a href="<?= base_url("lapor/service");?>" class="nav-link">
+                                                E-Service
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item <?php echo ($link=='kontak')?"active":"";?>">
+                                    <a href="<?= base_url("kontak");?>" class="nav-link">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="others-options d-flex align-items-center">
+                                <div class="option-item">
+                                    <form class="search-box">
+                                        <input type="text" class="form-control" placeholder="Search for..">
+                                        <button type="submit"><i class='bx bx-search'></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
-         </header>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="circle circle-one"></div>
+                            <div class="circle circle-two"></div>
+                            <div class="circle circle-three"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="option-inner">
+                            <div class="others-options d-flex align-items-center">
+                                <div class="option-item">
+                                    <form class="search-box">
+                                        <input type="text" class="form-control" placeholder="Search for..">
+                                        <button type="submit"><i class='bx bx-search'></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->

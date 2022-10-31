@@ -1,99 +1,78 @@
-<!-- Banner -->
-<section class="wf100 subheader">
-  <div class="container">
-      <h2>Hubungi kami </h2>
-      <ul>
-        <li> <a href="index.html">Home</a> </li>
-        <li> Hubungi kami </li>
-      </ul>
-  </div>
-</section>
-<!-- End Banner -->
+        <!-- Start Contact Area -->
+        <section class="contact-area ptb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27982.0992479593!2d-81.35428553933833!3d28.75650994456714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e76d5129fed6b1%3A0x1a6cd960f325cfcb!2sLake%20Mary%2C%20FL%2032746%2C%20USA!5e0!3m2!1sen!2sbd!4v1602575597158!5m2!1sen!2sbd"></iframe>
+                        </div>s
+                    </div>
 
-<!-- Content -->
-<div class="contact-details  p80 pagebg2">
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-          <h3 class="stitle">Kontak informasi</h3>
-        </div>
-        <div class="col-md-6 col-sm-6">
-          <div class="add-box">
-              <h5>Backoffice Smart City Solo</h5>
-              <ul>
-                <li><i class="fas fa-phone"></i> <strong>Telepon:</strong> 080 4576 392</li>
-                <li><i class="fas fa-building"></i> <strong>Alamat:</strong> <br>
-                    TMC Surakarta
-                </li>
-                <li><i class="far fa-envelope"></i><strong> Email:</strong> smartcity@surakarta.go.id</li>
-              </ul>
-          </div>
-        </div>
-        <!-- <div class="col-md-4 col-sm-4">
-          <div class="add-box">
-              <h5>Balad Office</h5>
-              <ul>
-                <li><i class="fas fa-phone"></i> <strong>Telepon:</strong> 080 4576 392</li>
-                <li><i class="fas fa-building"></i> <strong>Alamat:</strong> <br>
-                    Street # 75, Borne Block, 5th Avenue, West Road, NY.
-                </li>
-                <li><i class="far fa-envelope"></i> <strong>Email:</strong> contact@balad.com</li>
-              </ul>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-6 col-sm-6">
-          <div class="add-box">
-              <h5>Pusat komunitas</h5>
-              <ul>
-                <li><i class="fas fa-phone"></i> <strong>Telepon:</strong> 080 4576 392</li>
-                <li><i class="fas fa-building"></i> <strong>Alamat:</strong> <br>
-                    Street # 75, Borne Block, 5th Avenue, West Road, NY.
-                </li>
-                <li><i class="far fa-envelope"></i> <strong>Email:</strong> contact@balad.com</li>
-              </ul>
-          </div>
-        </div> -->
-    </div>
-  </div>
-</div>
-<!-- End Content -->
+                    <div class="col-lg-4">
+                        <aside class="widget-area">
+                            <section class="widget widget_stay_connected">
+                                <h3 class="widget-title">Location</h3>
+                                
+                                <ul class="contact-info">
+                                    <li>
+                                        <span>TMC Bali</span><br>
+                                        Jl. Gunung Sanghyang No.110, Padangsambian, Kec. Denpasar Bar., Kota Denpasar, Bali 80117
+                                    </li>
 
-<!-- Kontak 2 -->
-<div class="map-form p80">
-  <div class="container">
-    <div class="row">
-        <!-- <div class="col-md-4 col-sm-5">
-          <h3 class="stitle">Form kontak</h3>
-          <div class="contact-form">
-              <form>
-                <ul>
-                    <li>
-                      <input type="text" placeholder="Nama Lengkap" required="">
-                    </li>
-                    <li>
-                      <input type="text" placeholder="Masukan Email" required="">
-                    </li>
-                    <li>
-                      <input type="text" placeholder="Subject">
-                    </li>
-                    <li>
-                      <textarea placeholder="Tulis Pesan"></textarea>
-                    </li>
-                    <li>
-                      <input type="submit" value="Kirim Pesan">
-                    </li>
-                </ul>
-              </form>
-          </div>
-        </div> -->
-        <!-- <div class="col-md col-sm-7"> -->
-          <!-- Map -->
-          <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6946.132157491382!2d110.80094728145453!3d-7.565373941280424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a142a30c843e7%3A0xe82074cb8b72563a!2sTMC%20(%20TRAFFIC%20MANAGEMENT%20CENTRE%20)%20POLRESTA%20SURAKARTA!5e0!3m2!1sid!2sid!4v1642132789439!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <!-- End Map -->
-        <!-- </div> -->
-    </div>
-  </div>
-</div>
-<!-- End Kontak 2 -->
+                                    <li>
+                                        <span>Email</span><br>
+                                        smartcitybali@mail.com
+                                    </li>
+
+                                    <li>
+                                        <span>Call Center</span><br>
+                                        111
+                                    </li>
+
+                                    
+                                </ul>
+                            </section>
+                            
+                            <br>
+
+                            <section class="widget widget_stay_connected">
+                                <h3 class="widget-title">Stay connected</h3>
+                                
+                                <ul class="stay-connected-list">
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bxl-facebook'></i>
+                                            120,345 Fans
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="twitter">
+                                            <i class='bx bxl-twitter'></i>
+                                            25,321 Followers
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="youtube">
+                                            <i class='bx bxl-youtube'></i>
+                                            101,545 Subs
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="instagram">
+                                            <i class='bx bxl-instagram'></i>
+                                            10,129 Followers
+                                        </a>
+                                    </li>
+
+                                    
+                                </ul>
+                            </section>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Area -->
