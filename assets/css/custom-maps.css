@@ -1,0 +1,255 @@
+#map-warp{
+  height:500px;
+  width: 100%
+}
+
+.main-wrapper {
+margin-top: 3rem;
+text-align: center;
+border-radius: 4px;
+background-color: white;
+padding: 20px;
+/* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+position: relative;
+}
+
+a.material-icons {
+font-size: 1.5rem;
+color: white;
+position: relative;
+border-radius: 50%;
+padding: 5px;
+margin: 3px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+a.material-icons:after {
+content: "";
+width: 100%;
+height: 100%;
+border: solid 2px;
+transform: scale(0.8);
+position: absolute;
+top: -2px;
+left: -2px;
+border-radius: 50%;
+transition: all 0.3s ease;
+}
+
+a.material-icons:hover:after {
+transform: scale(1);
+box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+a.material-icons:nth-of-type(4) {
+background-color: #88b999;
+}
+
+a.material-icons:nth-of-type(4):hover {
+color: #88b999;
+}
+
+a.material-icons:nth-of-type(4):after {
+border-color: #88b999;
+}
+
+a.material-icons:nth-of-type(5) {
+background-color: #88b2b9;
+}
+
+a.material-icons:nth-of-type(5):hover {
+color: #88b2b9;
+}
+
+a.material-icons:nth-of-type(5):after {
+border-color: #88b2b9;
+}
+
+a.material-icons:nth-of-type(6) {
+background-color: #8897b9;
+}
+
+a.material-icons:nth-of-type(6):hover {
+color: #8897b9;
+}
+
+a.material-icons:nth-of-type(6):after {
+border-color: #8897b9;
+}
+
+a.material-icons:nth-of-type(7) {
+background-color: #343a40;
+}
+
+a.material-icons:nth-of-type(7):hover {
+color: #343a40;
+}
+
+a.material-icons:nth-of-type(7):after {
+border-color: #343a40;
+}
+
+a.material-icons:nth-of-type(8) {
+background-color: #ffc107;
+}
+
+a.material-icons:nth-of-type(8):hover {
+color: #ffc107;
+}
+
+a.material-icons:nth-of-type(8):after {
+border-color: #ffc107;
+}
+
+a.material-icons:nth-of-type(9) {
+background-color: #ffc107;
+}
+
+a.material-icons:nth-of-type(9):hover {
+color: #ffc107;
+}
+
+a.material-icons:nth-of-type(9):after {
+border-color: #ffc107;
+}
+
+a.material-icons:nth-of-type(1) {
+background-color: #cd8484;
+}
+
+a.material-icons:nth-of-type(1):hover {
+color: #cd8484;
+}
+
+a.material-icons:nth-of-type(1):after {
+border-color: #cd8484;
+}
+
+a.material-icons:nth-of-type(2) {
+background-color: #ec9f83;
+}
+
+a.material-icons:nth-of-type(2):hover {
+color: #ec9f83;
+}
+
+a.material-icons:nth-of-type(2):after {
+border-color: #ec9f83;
+}
+
+a.material-icons:nth-of-type(3) {
+background-color: #cdb274;
+}
+
+a.material-icons:nth-of-type(3):hover {
+color: #cdb274;
+}
+
+a.material-icons:nth-of-type(3):after {
+border-color: #cdb274;
+}
+
+a.material-icons:hover {
+background-color: transparent;
+transform: rotate(90deg);
+cursor: pointer;
+box-shadow: none;
+}
+
+p {
+color: #999;
+font-weight: 300;
+margin-top: 20px;
+}
+
+@media (min-width:601px) {
+a.material-icons {
+padding:10px;
+margin:5px;
+font-size:2rem;
+}
+}
+
+/* .icon_map{
+display: flex;
+justify-content: center;
+margin-bottom:100px
+}
+.icon_map3{
+display: flex;
+justify-content: center;
+}
+.col2{
+width: 21rem;
+} */
+.depart-info .deprt-icon-box-maps {
+background: #ffffff;
+border-radius: 10px;
+text-align: center;
+height: 173px;
+margin: 5px 15px 28px;
+width: 14rem;
+/* box-shadow: 0px 0px 15px 0 rgb(0 0 0 / 7%); */
+box-shadow: 0 0 5px;
+
+/* padding: 30px; */
+padding: 34px 34px;
+position: relative;
+}
+.deprt-icon-box-maps:hover {
+/* padding: 10px 40px; */
+padding: 13px 34px;
+}
+.depart-info .deprt-icon-box-maps img{
+/* margin: 0 0 20px; */
+margin: 0 0 12px;
+width: 7rem;
+height: 7rem;
+}
+@media (min-width:993px) {
+a.material-icons {
+padding:20px;
+margin:10px;
+font-size:4rem;
+}
+a.material-icons:after {
+border-width:3px;
+top:-3px;
+left:-3px;
+}
+}
+#container {
+overflow-x:scroll;
+overflow-y:hidden;
+
+/* Styling */
+background-color: yellow;
+height:200px;
+}
+
+#objects {
+width: auto;
+white-space:nowrap; 
+
+/* Styling */
+background-color: blue;
+height: 200px;
+}
+
+.object {
+display: inline-block;
+
+/* Styling */
+background-color: red;
+border: 1px solid white;
+width: 200px;
+height:200px;
+}
+.owl-nav{
+text-align: center;
+font-size: 4rem;
+}
+.owl-nav > .owl-prev{
+margin-right: 25rem;
+}

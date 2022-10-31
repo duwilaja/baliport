@@ -1,0 +1,40 @@
+  .event-post-txt h5{
+      font-size:19px;
+  }
+  .Mayor-video-msg{
+    /* background: none; */
+    background-color: #F1F2F5;
+    padding: 18px 0;
+  }
+  .text-center h5, p{
+    color: black !important;
+  }
+  .text-center{
+    padding: 50px 0;
+  }
+  .news-box{
+    height: 43rem;
+  }
+  .h2-Mayor-msg{
+    background-image: none !important;
+    margin-bottom: 20px;
+    background-color: #F1F2F5;
+  }
+  .Mayor-txt  p, h4{
+    color: black !important;
+  }
+  
+  .cust-hover-d {
+    box-shadow: 0 0 5px;
+  }
+  .card-img-top {
+    width: 100% !important;
+    height: 15vw !important;
+    object-fit: cover !important;
+}
+
+.subheader {
+  background: url(../images/subheader.png) no-repeat !important;
+  background-size: cover !important;
+  padding: 110px 0 !important;
+} 
