@@ -35,7 +35,7 @@
                                 <div class="article-image">
                                     <img src="<?= base_url().substr($event->uploadedfile,1)?>" alt="image">
                                 </div> <br>
-                                <?= $event->deskripsi_event?>
+                                <?= nl2br($event->deskripsi_event)?>
                             </div>
 						</div>
                     </div>
