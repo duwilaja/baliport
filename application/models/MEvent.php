@@ -162,4 +162,9 @@ class MEvent extends CI_Model {
 		return $ret;
 	}
 
+	function event_slider($number=4,$offset=0){
+      $this->db->select("judul_event,ev.id as id,deskripsi_event,ctd_date,lokasi,uploadedfile,tgl_start,tgl_end");
+      $this->db->order_by('id', 'desc');
+      return $query = $this->db->get('event ev',$number,$offset)->result();		
+    }
 }

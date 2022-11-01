@@ -125,27 +125,27 @@ class Portal extends CI_Controller {
     // $event = $this->me->get()->result();
     $this->load->library('pagination');
 		$jumlah_data_event = $this->me->jumlah_data_event();
-		$config['base_url'] = base_url().'Portal/event/';
+		$config['base_url'] = base_url().'portal/event/';
 		$config['total_rows'] = $jumlah_data_event;
 		$config['per_page'] = 10;
-		$config['next_link'] = '»';
-		$config['prev_link'] = '«';
-		$config['first_link'] = 'Awal';
-		$config['last_link'] = 'Akhir';
-		$config['full_tag_open'] = '<ul class="pagination">';
-		$config['full_tag_close'] = '</ul>';
-		$config['num_tag_open'] = '<li>';
-		$config['num_tag_close'] = '</li>';
-		$config['cur_tag_open'] = '<li class="active"><a href="#">';
-		$config['cur_tag_close'] = '</a></li>';
-		$config['prev_tag_open'] = '<li>';
-		$config['prev_tag_close'] = '</li>';
-		$config['next_tag_open'] = '<li>';
-		$config['next_tag_close'] = '</li>';
-		$config['last_tag_open'] = '<li>';
-		$config['last_tag_close'] = '</li>';
-		$config['first_tag_open'] = '<li>';
-		$config['first_tag_close'] = '</li>';
+		$config['next_link'] = "<i class='bx bx-chevron-right'></i>";
+		$config['prev_link'] = "<i class='bx bx-chevron-left'></i>";
+		$config['first_link'] = '';
+		$config['last_link'] = '';
+		$config['full_tag_open'] = '<div class="pagination-area justify-content-center">';
+		$config['full_tag_close'] = '</div>';
+		$config['num_tag_open'] = '<span class="page-numbers">';
+		$config['num_tag_close'] = '</span>';
+		$config['cur_tag_open'] = '<span class="page-numbers current" aria-current="page">';
+		$config['cur_tag_close'] = '</span>';
+		$config['prev_tag_open'] = '<span class="page-numbers">';
+		$config['prev_tag_close'] = '</span>';
+		$config['next_tag_open'] = '<span class="page-numbers">';
+		$config['next_tag_close'] = '</span>';
+		$config['last_tag_open'] = '';
+		$config['last_tag_close'] = '';
+		$config['first_tag_open'] = '';
+		$config['first_tag_close'] = '';
 		$from = $this->uri->segment(3);
 		$this->pagination->initialize($config);
 		$data = [
@@ -154,9 +154,10 @@ class Portal extends CI_Controller {
 			'title' => $this->title,
 			'link' =>  'event',
 			'js' => [
-                base_url('assets/js_local/pages/event.js'),
+                //base_url('assets/js_local/pages/event.js'),
                 base_url('assets/js_local/pages/event-singel.js'),
 			],
+			'slider' => $this->me->event_slider()
 		];
 		$this->load->view('main_portal',$data);
 	}
