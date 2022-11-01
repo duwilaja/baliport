@@ -70,14 +70,14 @@
                                     </a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="explore.html" class="nav-link">
+                                <li class="nav-item <?php echo ($link=='artikel')?"active":"";?>">
+                                    <a href="<?= base_url("artikel");?>" class="nav-link">
                                         Explore
                                     </a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="event.html" class="nav-link">
+                                <li class="nav-item <?php echo ($link=='event')?"active":"";?>">
+                                    <a href="<?= base_url("portal/event");?>" class="nav-link">
                                         Event
                                     </a>
                                 </li>
