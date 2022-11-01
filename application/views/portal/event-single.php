@@ -1,8 +1,8 @@
-<div class="main-content p80">
+<!--div class="main-content p80">
   <div class="container">
     <div class="card" style="box-shadow: 0 0 5px;">
       <div class="card-body">
-        <!-- <h5 class="card-title">Card title</h5> -->
+        <!-- <h5 class="card-title">Card title</h5> --
         <div class="owl-carousel owl-theme">
             <?php 
             $image_arr = explode(";", $event->uploadedfile);
@@ -20,4 +20,26 @@
       </div>
     </div>
   </div>
-</div>
+</div-->
+
+        <!-- Start News Details Area -->
+        <section class="news-details-area ptb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 mt-0">
+                       
+                        <div class="blog-details-desc">
+                            <div class="article-content mt-0">
+                                <span><a href="#"><?= $event->lokasi?></a> / <?= date('d M Y',strtotime($event->tgl_start))?> - <?= date('d M Y',strtotime($event->tgl_end))?></span>
+                                <h3><?= $event->judul_event?></h3>
+                                <div class="article-image">
+                                    <img src="<?= base_url().substr($event->uploadedfile,1)?>" alt="image">
+                                </div> <br>
+                                <?= $event->deskripsi_event?>
+                            </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start News Details Area -->
