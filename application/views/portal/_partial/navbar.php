@@ -70,8 +70,8 @@
                                     </a>
                                 </li>
 
-                                <li class="nav-item <?php echo ($link=='artikel')?"active":"";?>">
-                                    <a href="<?= base_url("artikel");?>" class="nav-link">
+                                <li class="nav-item <?php echo ($link=='berita')?"active":"";?>">
+                                    <a href="<?= base_url("portal/berita");?>" class="nav-link">
                                         Explore
                                     </a>
                                 </li>

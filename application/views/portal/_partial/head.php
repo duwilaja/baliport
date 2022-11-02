@@ -28,4 +28,11 @@
 		<title><?= $title?></title>
 
         <link rel="icon" type="image/png" href="<?= base_url('bali/');?>assets/img/icon-jepun.png">
+		<style type="text/css">
+			.aktip{
+				color: #ffffff;
+				background-color: #ff661f;
+				border: 1px solid #ff661f !important;
+			}
+		</style>
     </head>

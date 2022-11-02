@@ -1,57 +1,105 @@
-<!--Sub Header Start-->
-<section class="wf100 subheader">
+		<!-- Start News Area -->
+        <section class="news-area bg-ffffff ptb-50">
             <div class="container">
-               <h2>Berita & Artikel Terupdate</h2>
-               <ul>
-                  <li> <a href="<?= base_url()?>">Beranda</a> </li>
-                  <li> <a href="#"> Berita </a> </li>
-               </ul>
-            </div>
-         </section>
-         <!--Sub Header End--> 
-         <!--Main Content Start-->
-         <div class="main-content p80">
-            <!--Events Start-->
-            <div class="news-wrapper news-grid">
-               <div class="container">
-                  <div class="row">
-                     <!--News Box Start-->
-                    <?php foreach($artikel as $ar):?>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="news-box">
-                                <div class="new-thumb"> <span class="cat c1"><?= $ar->kategori?></span> <img src="<?= base_url().'data/artikel/'.$ar->gambar;?>" alt=""> </div>
-                                <div class="new-txt">
-                                <ul class="news-meta">
-                                    <li><?= $ar->ctd_date?></li>
-                                    <!-- <li>176 Comments</li> -->
-                                </ul>
-                                <h6><a href="<?= base_url('Portal/beritaSingle/').$ar->id?>"><?= $ar->judul_artikel ?></a></h6>
-                                    <p> <?= (str_word_count($ar->deskripsi) > 4 ? substr($ar->deskripsi,0,100)."..." : $ar->deskripsi) ?> </p>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <aside class="widget-area">
+                            <section class="widget widget_tag_cloud">
+                                <h3 class="widget-title">Explore Bali</h3>
+                                <div class="widget widget_search">
+                                    <form class="search-form">
+                                        <label>
+                                            <span class="screen-reader-text">Search for:</span>
+                                            <input type="search" class="search-field" placeholder="Search...">
+                                        </label>
+                                        <button type="submit">
+                                            <i class='bx bx-search'></i>
+                                        </button>
+                                    </form>
                                 </div>
-                                <!-- <div class="news-box-f"> <img src="<?= base_url('assets/portal/');?>images/tuser1.jpg" alt=""> Johny Stewart <a href="#"><i class="fas fa-arrow-right"></i></a> </div> -->
+                                <div class="tagcloud">
+								<?php foreach($kategori as $k){?>
+                                    <a href="<?= base_url('portal/berita/').$this->uri->segment(3).'?k='.$k->id?>" <?= $k->id==$kid?'class="aktip"':''; ?>><?= $k->kategori?></a>
+								<?php }?>
+                                    <!--a href="#">Kuliner Tradisional</a>
+                                    <a href="#">Adat & Budaya</a>
+                                    <a href="#">Rekreasi</a>
+                                    <a href="#">Oleh - Oleh Khas</a>
+                                    <a href="#">Travel Agensi</a>
+                                    <a href="#">Penginapan</a>
+                                    <a href="#">Pelayanan Publik</a-->
+                                </div>
+
+                                
+                            </section>
+                            
+                           <br>
+                        </aside>
+                    </div>
+
+                    <div class="container">
+
+                        <div class="row">
+						<?php foreach($utama as $b){?>
+                            <div class="col-lg-3">
+                                <div class="single-main-default-news">
+                                    <a href="<?= base_url('portal/beritaSingle/').$b->id?>">
+                                        <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
+                                    </a>
+                                    <div class="news-content">
+                                        <div class="tag"><?= $b->kategori ?></div>
+                                        <h3>
+                                            <a href="<?= base_url('portal/beritaSingle/').$b->id?>"><?= $b->judul_artikel ?></a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+						<?php }?>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8">
+					<?php foreach($artikel as $b){?>
+                        <div class="single-news-item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <div class="news-image">
+                                        <a href="<?= base_url('portal/beritaSingle/').$b->id?>">
+                                            <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <div class="news-content">
+                                        <span><?= $b->kategori ?></span>
+                                        <h3>
+                                            <a href="<?= base_url('portal/beritaSingle/').$b->id?>"><?= $b->judul_artikel ?></a>
+                                        </h3>
+                                        <?= substr($b->deskripsi,0,100)."..." ?>
+                                        <!-- <p><a href="#">Patricia</a> / 28 September, 2022</p> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    <?php endforeach;?>
-                     <!--News Box End--> 
-                  </div>
-                  <div class="row">
-                     <div class="site-pagination">
-                        <nav aria-label="Page navigation">
-                           <!-- <ul class="pagination">
-                              <li> <a href="#" aria-label="Previous"> <span aria-hidden="true">«</span> </a> </li>
-                              <li><a href="#">1</a></li>
-                              <li><a href="#">2</a></li>
-                              <li class="active"><a href="#">3</a></li>
-                              <li><a href="#">4</a></li>
-                              <li><a href="#">5</a></li>
-                              <li> <a href="#" aria-label="Next"> <span aria-hidden="true">»</span> </a> </li>
-                           </ul> -->
-                           <?= $this->pagination->create_links(); ?>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
+					<?php }?>
+
+                        <!--div class="pagination-area">
+                            <a href="#" class="prev page-numbers">
+                                <i class='bx bx-chevron-left'></i>
+                            </a>
+                            <span class="page-numbers current" aria-current="page">1</span>
+                            <a href="#" class="page-numbers">2</a>
+                            <a href="#" class="page-numbers">3</a>
+                            <a href="#" class="page-numbers">4</a>
+                            <a href="#" class="next page-numbers">
+                                <i class='bx bx-chevron-right'></i>
+                            </a>
+                        </div-->
+						<?= $this->pagination->create_links(); ?>
+                    </div>
+                </div>
             </div>
-            <!--Events End--> 
-         </div>
-         <!--Main Content End--> 
+        </section>
+        <!-- End News Area -->
+
