@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Portal extends CI_Controller {
 
-	private $title = "Portal Smart City Solo";
+	private $title = "Portal Smart City Bali";
 
 	public function __construct()
 	{
@@ -64,34 +64,40 @@ class Portal extends CI_Controller {
 	{
 		// $q = $this->ma->getKategori()->result();
 		// $ar = $this->ma->getArtikel()->result();
+		$k=$this->input->get('k');
+		$jumlah_data_berita = $this->ma->jumlah_data_berita($k);
+		$config['reuse_query_string'] = true;
 		$this->load->library('pagination');
-		$jumlah_data_berita = $this->ma->jumlah_data_berita();
 		$config['base_url'] = base_url().'Portal/berita/';
 		$config['total_rows'] = $jumlah_data_berita;
 		$config['per_page'] = 8;
-		$config['next_link'] = '»';
-		$config['prev_link'] = '«';
-		$config['first_link'] = 'Awal';
-		$config['last_link'] = 'Akhir';
-		$config['full_tag_open'] = '<ul class="pagination">';
-		$config['full_tag_close'] = '</ul>';
-		$config['num_tag_open'] = '<li>';
-		$config['num_tag_close'] = '</li>';
-		$config['cur_tag_open'] = '<li class="active"><a href="#">';
-		$config['cur_tag_close'] = '</a></li>';
-		$config['prev_tag_open'] = '<li>';
-		$config['prev_tag_close'] = '</li>';
-		$config['next_tag_open'] = '<li>';
-		$config['next_tag_close'] = '</li>';
-		$config['last_tag_open'] = '<li>';
-		$config['last_tag_close'] = '</li>';
-		$config['first_tag_open'] = '<li>';
-		$config['first_tag_close'] = '</li>';
+		$config['next_link'] = "<i class='bx bx-chevron-right'></i>";
+		$config['prev_link'] = "<i class='bx bx-chevron-left'></i>";
+		$config['first_link'] = '';
+		$config['last_link'] = '';
+		$config['full_tag_open'] = '<div class="pagination-area justify-content-center">';
+		$config['full_tag_close'] = '</div>';
+		$config['num_tag_open'] = '<span class="page-numbers">';
+		$config['num_tag_close'] = '</span>';
+		$config['cur_tag_open'] = '<span class="page-numbers current" aria-current="page">';
+		$config['cur_tag_close'] = '</span>';
+		$config['prev_tag_open'] = '<span class="page-numbers">';
+		$config['prev_tag_close'] = '</span>';
+		$config['next_tag_open'] = '<span class="page-numbers">';
+		$config['next_tag_close'] = '</span>';
+		$config['last_tag_open'] = '';
+		$config['last_tag_close'] = '';
+		$config['first_tag_open'] = '';
+		$config['first_tag_close'] = '';
 		$from = $this->uri->segment(3);
 		$this->pagination->initialize($config);
 		$data = [
-			'artikel' => $this->ma->data_berita($config['per_page'],$from),
-			'link' =>  'berita'
+			'title' => $this->title.' - Explore',
+			'artikel' => $this->ma->data_berita($config['per_page'],$from,$k),
+			'utama' => $this->ma->berita_utama(),
+			'kategori' => $this->ma->kategories(),
+			'link' =>  'berita',
+			'kid' => $k
 		];
 		$this->load->view('main_portal',$data);
 	}
@@ -151,7 +157,7 @@ class Portal extends CI_Controller {
 		$data = [
       'event' => $this->me->data_event($config['per_page'],$from),
       // 'event' => $event,
-			'title' => $this->title,
+			'title' => $this->title.' - Event',
 			'link' =>  'event',
 			'js' => [
                 //base_url('assets/js_local/pages/event.js'),
