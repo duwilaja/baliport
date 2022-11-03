@@ -36,7 +36,7 @@
 				<div class="container text-center single-page single-pageimage  ">
 				    <div class="row">
 						<div class="col-xl-7 col-lg-6 col-md-12">
-							<img src="<?=base_url();?>assets/portal/img/LOGO-ELING.png" class="construction-img mb-7 h-480  mt-5 mt-xl-0" alt="">
+							<img src="<?=base_url();?>bali/assets/img/logo-jepun-bali-500.png" class="construction-img mb-7 h-480  mt-5 mt-xl-0" alt="">
 						</div>
 						<div class="col-xl-5  col-lg-6 col-md-12 ">
 							<div class="col-lg-11">
