@@ -64,8 +64,8 @@
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="index.html" class="nav-link">
+                                <li class="nav-item <?php echo ($link=='index')?"active":"";?>">
+                                    <a href="<?= base_url();?>" class="nav-link">
                                         Home 
                                     </a>
                                 </li>
