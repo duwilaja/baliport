@@ -20,6 +20,53 @@ class Kontak extends CI_Controller {
 		];
 		$this->load->view('main_portal',$data);
 	}
-
+	
+	public function galeri()
+	{
+		$data = [
+			'title' => 'Portal Smart City Bali - Galeri',
+			'link' => 'galeri',
+			'js' => [
+                base_url('assets/js_local/pages/e_lapor.js'),
+			],
+		];
+		$this->load->view('main_portal',$data);
+	}
+	
+	public function grafik()
+	{
+		$data = [
+			'title' => 'Portal Smart City Bali - Infographic',
+			'link' => 'grafik',
+			'js' => [
+                base_url('assets/js_local/pages/e_lapor.js'),
+			],
+		];
+		$this->load->view('main_portal',$data);
+	}
+	
+	public function transport()
+	{
+		$data = [
+			'title' => 'Portal Smart City Bali - Transportation Route',
+			'link' => 'transport',
+			'js' => [
+                base_url('assets/js_local/pages/e_lapor.js'),
+			],
+		];
+		$this->load->view('main_portal',$data);
+	}
+	
+	public function trafic()
+	{
+		$data = [
+			'title' => 'Portal Smart City Bali - Live Traffic',
+			'link' => 'trafic',
+			'js' => [
+                base_url('assets/js_local/pages/e_lapor.js'),
+			],
+		];
+		$this->load->view('main_portal',$data);
+	}
 
 }
