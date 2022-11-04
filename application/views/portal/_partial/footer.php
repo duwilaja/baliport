@@ -5,7 +5,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="single-footer-widget">
                             <a href="#">
-                                <img src="assets/img/logo-jepun-bali-200-n.png" alt="image">
+                                <img src="<?= base_url('bali/')?>assets/img/logo-smart-city-200.png" alt="image">
                             </a>
 
                             <ul class="social">
