@@ -46,8 +46,8 @@
                     <div class="main-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="black-logo" alt="image">
-                                <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="white-logo" alt="image">
+                                <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="black-logo" alt="image">
+                                <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="white-logo" alt="image">
                             </a>
                         </div>
                     </div>
@@ -58,26 +58,78 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="black-logo" alt="image">
-                            <img src="<?= base_url('bali/');?>assets/img/logo-jepun.png" class="white-logo" alt="image">
+                            <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="black-logo" alt="image">
+                            <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="white-logo" alt="image">
                         </a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                <li class="nav-item <?php echo ($link=='index')?"active":"";?>">
-                                    <a href="<?= base_url();?>" class="nav-link">
+                                <li class="nav-item">
+                                    <a href="<?= base_url();?>" class="nav-link <?php echo ($link=='index')?"active":"";?>">
                                         Home 
                                     </a>
                                 </li>
 
-                                <li class="nav-item <?php echo ($link=='berita')?"active":"";?>">
-                                    <a href="<?= base_url("portal/berita");?>" class="nav-link">
-                                        Explore
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link ">
+                                        Wisata 
+                                        <i class='bx bx-chevron-down'></i>
                                     </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item ">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Wisata Alam
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Kuliner Tradisional
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Adat & Budaya
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Tempat Rekreasi
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Oleh - Oleh Khas
+                                            </a>
+                                        </li>
+
+                                        <hr style="background-color: #a0a0a0;">
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Penginapan
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Travel Agensi
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                                Pelayanan Publik
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
 
-                                <li class="nav-item <?php echo ($link=='event')?"active":"";?>">
-                                    <a href="<?= base_url("portal/event");?>" class="nav-link">
+                                <li class="nav-item">
+                                    <a href="<?= base_url("portal/event");?>" class="nav-link <?php echo ($link=='event')?"active":"";?>">
                                         Event
                                     </a>
                                 </li>
@@ -88,35 +140,52 @@
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item <?php echo ($link=='e_lapor')?"active":"";?>">
-                                            <a href="<?= base_url("lapor/lapor");?>" class="nav-link ">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("lapor/lapor");?>" class="nav-link <?php echo ($link=='e_lapor')?"active":"";?>">
                                                 E-Lapor
                                             </a>
                                         </li>
 
-                                        <li class="nav-item <?php echo ($link=='e_service')?"active":"";?>">
-                                            <a href="<?= base_url("lapor/service");?>" class="nav-link">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("lapor/service");?>" class="nav-link <?php echo ($link=='e_service')?"active":"";?>">
                                                 E-Service
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
 
-                                <li class="nav-item <?php echo ($link=='kontak')?"active":"";?>">
-                                    <a href="<?= base_url("kontak");?>" class="nav-link">
+                                <li class="nav-item">
+                                    <a href="<?= base_url("kontak/trafic");?>" class="nav-link <?php echo ($link=='trafic')?"active":"";?>">
+                                        Live Traffic
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a href="<?= base_url("kontak/transport");?>" class="nav-link <?php echo ($link=='transport')?"active":"";?>">
+                                        Transportation Route
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="<?= base_url("kontak/grafik");?>" class="nav-link <?php echo ($link=='grafik')?"active":"";?>">
+                                        Infographic
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="<?= base_url("kontak/galeri");?>" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
+                                        Gallery
+                                    </a>
+                                </li>
+								
+                                <li class="nav-item">
+                                    <a href="<?= base_url("kontak");?>" class="nav-link <?php echo ($link=='kontak')?"active":"";?>">
                                         Contact
                                     </a>
                                 </li>
                             </ul>
 
-                            <div class="others-options d-flex align-items-center">
-                                <div class="option-item">
-                                    <form class="search-box">
-                                        <input type="text" class="form-control" placeholder="Search for..">
-                                        <button type="submit"><i class='bx bx-search'></i></button>
-                                    </form>
-                                </div>
-                            </div>
+                            <!-- s -->
                         </div>
                     </nav>
                 </div>

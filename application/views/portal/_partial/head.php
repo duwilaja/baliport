@@ -34,5 +34,8 @@
 				background-color: #ff661f;
 				border: 1px solid #ff661f !important;
 			}
+			.main-navbar .navbar .navbar-nav .nav-item a{
+				font-size: 14px;
+			}
 		</style>
     </head>
