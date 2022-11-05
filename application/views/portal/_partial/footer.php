@@ -5,7 +5,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="single-footer-widget">
                             <a href="#">
-                                <img src="<?= base_url('bali/')?>assets/img/logo-smart-city-200.png" alt="image">
+                                <img src="<?= base_url('bali/')?>assets/img/logo-new-footer-s.png" alt="image">
                             </a>
 
                             <ul class="social">

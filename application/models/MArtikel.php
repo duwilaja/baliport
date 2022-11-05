@@ -288,5 +288,17 @@ class MArtikel extends CI_Model {
 		$kategori=$this->db->get("kategori_artikel")->result();
 		return $kategori;
 	}
+	
+	function berita_homekat(){
+		$maxberita=$this->db->select("kategori_id,max(id) as mid")->where("status","1")->group_by("kategori_id")->get("artikel")->result();
+		$ids=array();
+		foreach($maxberita as $mb){
+			$ids[]=$mb->mid;
+		}
+		$this->db->select("judul_artikel,ar.id as id,judul_artikel,kategori_id,kategori,gambar,ctd_date");
+        $this->db->join('kategori_artikel k', 'k.id = ar.kategori_id', 'left');
+        $this->db->order_by('ar.id', 'desc');
+		return $this->db->where_in("ar.id",$ids)->get("artikel ar")->result();
+	}
 
 }
