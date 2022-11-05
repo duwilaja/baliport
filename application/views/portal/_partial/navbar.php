@@ -46,8 +46,8 @@
                     <div class="main-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="black-logo" alt="image">
-                                <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="white-logo" alt="image">
+                                <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="black-logo" alt="image">
+                                <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="white-logo" alt="image">
                             </a>
                         </div>
                     </div>
@@ -58,8 +58,8 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="black-logo" alt="image">
-                            <img src="<?= base_url("bali/")?>assets/img/logo-new-45.png" class="white-logo" alt="image">
+                            <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="black-logo" alt="image">
+                            <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="white-logo" alt="image">
                         </a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -75,63 +75,43 @@
                                         Wisata 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
-                                    <ul class="dropdown-menu">
+									<ul class="dropdown-menu">
                                         <li class="nav-item ">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                            <a href="wisata-alam.html" class="nav-link">
                                                 Wisata Alam
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                            <a href="wisata-kuliner.html" class="nav-link">
+                                                Wisata Kuliner
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="kuliner-tradisional.html" class="nav-link">
                                                 Kuliner Tradisional
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                            <a href="wisata-adat.html" class="nav-link">
                                                 Adat & Budaya
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                            <a href="rekreasi.html" class="nav-link">
                                                 Tempat Rekreasi
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
+                                            <a href="oleh-oleh.html" class="nav-link">
                                                 Oleh - Oleh Khas
                                             </a>
                                         </li>
-
-                                        <hr style="background-color: #a0a0a0;">
-
-                                        <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
-                                                Penginapan
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
-                                                Travel Agensi
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="<?= base_url("kontak/wisata");?>" class="nav-link">
-                                                Pelayanan Publik
-                                            </a>
-                                        </li>
                                     </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="<?= base_url("portal/event");?>" class="nav-link <?php echo ($link=='event')?"active":"";?>">
-                                        Event
-                                    </a>
                                 </li>
 
                                 <li class="nav-item">
@@ -140,6 +120,27 @@
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
+                                        
+                                        <li class="nav-item">
+                                            <a href="penginapan.html" class="nav-link">
+                                                Penginapan
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="travel-agensi.html" class="nav-link">
+                                                Travel Agensi
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="pelayanan-publik.html" class="nav-link">
+                                                Lokasi Pelayanan Publik
+                                            </a>
+                                        </li>
+
+                                        <hr style="background-color: #a0a0a0;">
+
                                         <li class="nav-item">
                                             <a href="<?= base_url("lapor/lapor");?>" class="nav-link <?php echo ($link=='e_lapor')?"active":"";?>">
                                                 E-Lapor
@@ -155,26 +156,60 @@
                                 </li>
 
                                 <li class="nav-item">
+                                    <a href="<?= base_url("portal/event");?>" class="nav-link <?php echo ($link=='event')?"active":"";?>">
+                                        Event
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a href="<?= base_url("kontak/trafic");?>" class="nav-link <?php echo ($link=='trafic')?"active":"";?>">
-                                        Live Traffic
+                                        Traffic
                                     </a>
                                 </li>
                                 
                                 <li class="nav-item">
-                                    <a href="<?= base_url("kontak/transport");?>" class="nav-link <?php echo ($link=='transport')?"active":"";?>">
-                                        Transportation Route
+                                    <a href="<?= base_url("portal/berita");?>" class="nav-link <?php echo ($link=='berita')?"active":"";?>">
+                                        News
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="<?= base_url("kontak/grafik");?>" class="nav-link <?php echo ($link=='grafik')?"active":"";?>">
+                                    <a href="#" class="nav-link">
                                         Infographic
+                                        <i class='bx bx-chevron-down'></i>
                                     </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="weekly-report.html" class="nav-link">
+                                                Weekly Traffic Report
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="monthly-report.html" class="nav-link">
+                                                Monthly Traffic Report
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="<?= base_url("kontak/galeri");?>" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
+                                    <a href="#" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
                                         Gallery
+                                        <i class='bx bx-chevron-down'></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url("kontak/galeri");?>" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
+                                                Foto Kegiatan
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+								
+								<li class="nav-item">
+                                    <a href="<?= base_url("kontak/transport");?>" class="nav-link <?php echo ($link=='transport')?"active":"";?>">
+                                        Transportation Route 
                                     </a>
                                 </li>
 								
@@ -182,6 +217,27 @@
                                     <a href="<?= base_url("kontak");?>" class="nav-link <?php echo ($link=='kontak')?"active":"";?>">
                                         Contact
                                     </a>
+                                </li>
+								
+								<li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Download
+                                        <i class='bx bx-chevron-down'></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            
+                                            <a href="#" class="nav-link">
+                                             Peraturan Daerah
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                             Perundang- Undangan
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
 
