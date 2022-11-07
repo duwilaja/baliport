@@ -10,7 +10,7 @@ foreach($kategori as $k){
             class=" bg-image p-5"
             style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp'); height: 200px;">
             <h2 style="color: #ffff;"><?=$wisata?></h2>
-            <h5 style="color: #ffff; font-weight: 300; opacity: 50%;" ><?=$wisata?></h5>
+            <h5 style="color: #ffff; font-weight: 300; opacity: 50%;" >Rekomendasi <?=$wisata?> di Bali</h5>
         </div>
         <!-- Jumbotron -->
 		<!-- Start Default News Area -->
