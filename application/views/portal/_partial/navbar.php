@@ -17,12 +17,12 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <ul class="top-header-social">
+                        <!--ul class="top-header-social">
                             <li>
                                 <i class='bx bx-calendar'></i>
                                 <a href="#">Call Center :<strong> 111</strong></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
 
                     <div class="col-lg-6">
