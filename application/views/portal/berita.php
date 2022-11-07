@@ -43,13 +43,13 @@
 						<?php foreach($utama as $b){?>
                             <div class="col-lg-3">
                                 <div class="single-main-default-news">
-                                    <a href="<?= base_url('portal/beritaSingle/').$b->id?>">
+                                    <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>">
                                         <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
                                     </a>
                                     <div class="news-content">
                                         <div class="tag"><?= $b->kategori ?></div>
                                         <h3>
-                                            <a href="<?= base_url('portal/beritaSingle/').$b->id?>"><?= $b->judul_artikel ?></a>
+                                            <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>"><?= $b->judul_artikel ?></a>
                                         </h3>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-4">
                                     <div class="news-image">
-                                        <a href="<?= base_url('portal/beritaSingle/').$b->id?>">
+                                        <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>">
                                             <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
                                         </a>
                                     </div>
@@ -74,7 +74,7 @@
                                     <div class="news-content">
                                         <span><?= $b->kategori ?></span>
                                         <h3>
-                                            <a href="<?= base_url('portal/beritaSingle/').$b->id?>"><?= $b->judul_artikel ?></a>
+                                            <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>"><?= $b->judul_artikel ?></a>
                                         </h3>
                                         <?= substr($b->deskripsi,0,100)."..." ?>
                                         <!-- <p><a href="#">Patricia</a> / 28 September, 2022</p> -->
