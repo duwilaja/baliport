@@ -71,43 +71,43 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link ">
+                                    <a href="#" class="nav-link  <?php echo ($link=='wisata')?"active":"";?>">
                                         Wisata 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
 									<ul class="dropdown-menu">
                                         <li class="nav-item ">
-                                            <a href="wisata-alam.html" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=1");?>" class="nav-link">
                                                 Wisata Alam
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="wisata-kuliner.html" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=2");?>" class="nav-link">
                                                 Wisata Kuliner
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="kuliner-tradisional.html" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=3");?>" class="nav-link">
                                                 Kuliner Tradisional
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="wisata-adat.html" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=4");?>" class="nav-link">
                                                 Adat & Budaya
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="rekreasi.html" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=5");?>" class="nav-link">
                                                 Tempat Rekreasi
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="oleh-oleh.html" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=6");?>" class="nav-link">
                                                 Oleh - Oleh Khas
                                             </a>
                                         </li>
