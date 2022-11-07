@@ -8,7 +8,7 @@
                 <div class="main-news-slides owl-carousel owl-theme">
 <?php foreach($slider as $e){?>
                     <div class="news-slider-item">
-                        <a href="<?= base_url('portal/eventSingle/').$e->id;?>">
+                        <a href="<?= base_url('portal/eventSingle/').$e->id."/?x".str_ireplace(" ","_",$e->judul_event);?>">
                             <!--img src="<?= base_url('bali/');?>assets/img/main-news-slider/main-news-slider-1.jpg" alt="image"-->
 							<img src="<?= base_url().substr($e->uploadedfile,1)?>" alt="">
                         </a>
@@ -16,7 +16,7 @@
                         <div class="slider-content">
                             <div class="tag">event</div>
                             <h3 style="font-size: 24px;">
-                                <a href="<?= base_url('portal/eventSingle/').$e->id;?>"><?= $e->judul_event?></a>
+                                <a href="<?= base_url('portal/eventSingle/').$e->id."/?x=".str_ireplace(" ","_",$e->judul_event);?>"><?= $e->judul_event?></a>
                             </h3>
                             <span><a href=""><?= $e->lokasi?></a> / <?= date('d M Y',strtotime($e->tgl_start))?> - <?= date('d M Y',strtotime($e->tgl_end))?></span>
                         </div>
@@ -38,7 +38,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-4">
                                     <div class="culture-news-image">
-                                        <a href="<?= base_url('portal/eventSingle/').$e->id;?>">
+                                        <a href="<?= base_url('portal/eventSingle/').$e->id."/?x=".str_ireplace(" ","_",$e->judul_event);?>">
                                             <img src="<?= base_url().substr($e->uploadedfile,1)?>" alt="image">
                                         </a>
                                     </div>
@@ -48,7 +48,7 @@
                                     <div class="culture-news-content mt-0">
                                         <span>event</span>
                                         <h3>
-                                            <a href="<?= base_url('portal/eventSingle/').$e->id;?>"><?= $e->judul_event ?></a>
+                                            <a href="<?= base_url('portal/eventSingle/').$e->id."/?x=".str_ireplace(" ","_",$e->judul_event);?>"><?= $e->judul_event ?></a>
                                         </h3>
                                         <p><?= substr($e->deskripsi_event,0,75) ?>...</p>
                                         <span><i class="bx bx-map"></i><?= $e->lokasi ?></label> 
