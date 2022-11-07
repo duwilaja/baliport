@@ -14,13 +14,14 @@ class Portal extends CI_Controller {
         $this->load->model('MDept','md');
         $this->load->model('MTentang','mt');
         $this->load->model('MYanrat','my');
-		
+		$this->load->model('MWisata','mw');
+        
 	}
 
 	public function index()
 	{
 		//$q = $this->ma->getKategori()->result();
-		$q = $this->ma->berita_homekat();
+		$q = $this->mw->berita_homekat();
 		$ar = $this->ma->getArtikel('',7)->result();
 		$yan = $this->my->get('',['status' => 1])->result();
 		$bn = $this->mb->get('',['status' => 1],'',3)->result();
@@ -251,6 +252,65 @@ class Portal extends CI_Controller {
 			'js' => [
                 base_url('assets/js_local/pages/custom.js'),
                 base_url('assets/js_local/pages/maps.js'),
+			],
+		];
+		$this->load->view('main_portal',$data);
+	}
+	
+	public function wisata()
+	{
+		// $q = $this->ma->getKategori()->result();
+		// $ar = $this->ma->getArtikel()->result();
+		$k=$this->input->get('k');
+		$jumlah_data_berita = $this->mw->jumlah_data_wisata($k);
+		$config['reuse_query_string'] = true;
+		$this->load->library('pagination');
+		$config['base_url'] = base_url().'Portal/wisata/';
+		$config['total_rows'] = $jumlah_data_berita;
+		$config['per_page'] = 8;
+		$config['next_link'] = "<i class='bx bx-chevron-right'></i>";
+		$config['prev_link'] = "<i class='bx bx-chevron-left'></i>";
+		$config['first_link'] = '';
+		$config['last_link'] = '';
+		$config['full_tag_open'] = '<div class="pagination-area justify-content-center">';
+		$config['full_tag_close'] = '</div>';
+		$config['num_tag_open'] = '<span class="page-numbers">';
+		$config['num_tag_close'] = '</span>';
+		$config['cur_tag_open'] = '<span class="page-numbers current" aria-current="page">';
+		$config['cur_tag_close'] = '</span>';
+		$config['prev_tag_open'] = '<span class="page-numbers">';
+		$config['prev_tag_close'] = '</span>';
+		$config['next_tag_open'] = '<span class="page-numbers">';
+		$config['next_tag_close'] = '</span>';
+		$config['last_tag_open'] = '';
+		$config['last_tag_close'] = '';
+		$config['first_tag_open'] = '';
+		$config['first_tag_close'] = '';
+		$from = $this->uri->segment(3);
+		$this->pagination->initialize($config);
+		$data = [
+			'title' => $this->title.' - Wisata',
+			'artikel' => $this->mw->data_berita($config['per_page'],$from,$k),
+			//'utama' => $this->mw->berita_utama(),
+			'kategori' => $this->mw->kategories(),
+			'link' =>  'wisata',
+			'kid' => $k
+		];
+		$this->load->view('main_portal',$data);
+	}
+	
+	public function wisataSingle($id)
+	{
+		$ev = $this->mw->getwisata($id)->row();
+		// $event = $this->me->get('',['status' => 1],'','3')->result();
+		$data = [
+			'title' => $this->title,
+			'artikel' => $ev,
+			// 'event' => $event,
+			'link' => 'wisata-single',
+			'js' => [
+        // base_url('assets/js_local/pages/event.js'),
+        base_url('assets/js_local/pages/event-singel.js'),
 			],
 		];
 		$this->load->view('main_portal',$data);
