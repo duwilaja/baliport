@@ -291,14 +291,17 @@ class MWisata extends CI_Model {
 	
 	function berita_homekat(){
 		$maxberita=$this->db->select("kategori_id,max(id) as mid")->where("status","1")->group_by("kategori_id")->get("wisata")->result();
-		$ids=array();
+		$ids=array(); $ret=array();
 		foreach($maxberita as $mb){
 			$ids[]=$mb->mid;
 		}
-		$this->db->select("judul_wisata,ar.id as id,judul_wisata,kategori_id,kategori,gambar,ctd_date");
-        $this->db->join('kategori_wisata k', 'k.id = ar.kategori_id', 'inner');
-        $this->db->order_by('ar.id', 'desc');
-		return $this->db->where_in("ar.id",$ids)->get("wisata ar")->result();
+		if(count($ids)>0){
+			$this->db->select("judul_wisata,ar.id as id,judul_wisata,kategori_id,kategori,gambar,ctd_date");
+			$this->db->join('kategori_wisata k', 'k.id = ar.kategori_id', 'inner');
+			$this->db->order_by('ar.id', 'desc');
+			$ret = $this->db->where_in("ar.id",$ids)->get("wisata ar")->result();
+		}
+		return $ret;
 	}
 
 }
