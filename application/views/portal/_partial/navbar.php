@@ -201,7 +201,12 @@
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="<?= base_url("kontak/galeri");?>" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
-                                                Foto Kegiatan
+                                                Photo
+                                            </a>
+                                        </li>
+										<li class="nav-item">
+                                            <a href="<?= base_url("kontak/pidio");?>" class="nav-link <?php echo ($link=='pidio')?"active":"";?>">
+                                                Video
                                             </a>
                                         </li>
                                     </ul>
