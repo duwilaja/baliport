@@ -9,7 +9,7 @@
                         <i class="typcn typcn-document-text hor-icon"></i> Konten <i class="fa fa-angle-down horizontal-icon"></i>
                     </a>
                     <ul class="sub-menu">
-                        <li aria-haspopup="true"><a href="<?= site_url('Banner');?>">Banner</a></li>
+                        <li aria-haspopup="true"><a href="<?= site_url('Banner');?>">Galery</a></li>
                         <li aria-haspopup="true"><a href="<?= site_url('Event');?>">Event</a></li>
                         <li aria-haspopup="true"><a href="<?= site_url('Dept');?>">Departemen</a></li>
                         <li aria-haspopup="true"><a href="<?= site_url('Yanrat');?>">Layanan Darurat</a></li>

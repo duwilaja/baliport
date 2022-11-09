@@ -88,7 +88,7 @@ class Banner extends CI_Controller {
             'nama' => $nama,
             'tag' => $tag,
             'deskripsi' => $deskripsi,
-            // 'link_vid' => $link,
+            'link_vid' => $link,
             'thumbnail' => $thumbnail[1],
             'ctd_date' => date('Y-m-d H:i:s'),
             'status' => 1,
@@ -211,7 +211,7 @@ class Banner extends CI_Controller {
 				'nama' => $nama,
 				'tag' => $tag,
 				'deskripsi' => $deskripsi,
-				// 'link_vid' => $link,
+				 'link_vid' => $link,
                 'ctd_upd' => date('Y-m-d H:i:s'),
             ];
         } else {
