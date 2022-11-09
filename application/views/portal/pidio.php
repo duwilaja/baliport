@@ -7,7 +7,8 @@
             <div class="row">
                 <?php foreach($galeri as $g){?>
 				<div class="col-lg-3" style="margin-bottom: 30px;">
-                    <img onclick="klik(this)" class="myImg" title="<?=$g->title?>" src="<?= base_url('data/banner/').$g->image;?>" alt="<?=$g->subtitle?>">
+                    <img onclick="klik(this)" class="myImg" title="<?=$g->deskripsi?>" src="<?= base_url('data/banner/').$g->thumbnail;?>" alt="<?=$g->link_vid?>">
+					<?=$g->judul?>
                 </div>
 				<?php }?>
                 <!--div class="col-lg-2 col-sm-2 ">
@@ -32,7 +33,10 @@
             <!-- The Modal -->
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
+                <video class="modal-content" controls>
+				<source id="img01">
+				Your browser does not support video tag
+				</video>
                 <div id="caption"></div>
             </div>
         </div>
@@ -58,8 +62,8 @@ function klik(img){
 	//var img = document.getElementById(theimg);
 	//img.onclick = function(){
 	  modal.style.display = "block";
-	  modalImg.src = img.src;
-	  captionText.innerHTML = img.alt;
+	  modalImg.src = img.alt;
+	  captionText.innerHTML = img.title;
 	//}
 }
 </script>
