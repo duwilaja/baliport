@@ -66,7 +66,8 @@
 			  margin: auto;
 			  display: block;
 			  width: 70%;
-			  max-width: 500px;
+			  /*max-width: 500px;*/
+			  height: 80%;
 			}
 
 			/* Caption of Modal Image */
