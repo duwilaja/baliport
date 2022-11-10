@@ -6,8 +6,10 @@
             </div>
             <div class="row">
                 <?php foreach($galeri as $g){?>
-				<div class="col-lg-3" style="margin-bottom: 30px;">
+				<div class="col-lg-3" style="margin-bottom: 30px; text-align:center;">
                     <img onclick="klik(this)" class="myImg" title="<?=$g->judul?>" src="<?= base_url('data/tentang/').$g->gambar;?>" alt="<?=$g->deskripsi?>">
+					<br />
+					<?=$g->judul?>
                 </div>
 				<?php }?>
                 <!--div class="col-lg-2 col-sm-2 ">
