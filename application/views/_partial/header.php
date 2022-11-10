@@ -3,7 +3,7 @@
         <div class="d-flex">
             <a id="horizontal-navtoggle" class="animated-arrow hor-toggle"><span></span></a><!-- sidebar-toggle-->
             <a class="header-brand" href="<?=base_url('Portal')?>">
-                <img src="<?=base_url()?>assets/portal/img/LOGO-ELING.png" class="header-brand-img desktop-lgo" alt="Aronox logo">
+                <img src="<?=base_url()?>bali/assets/img/logo-jepun-bali.png" class="header-brand-img desktop-lgo" alt="Aronox logo">
                 <img src="<?=base_url()?>assets/images/brand/favicon.png" class="header-brand-img mobile-logo" alt="Aronox logo">
             </a>
             <div class="d-flex order-lg-2 ml-auto">

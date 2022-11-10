@@ -66,9 +66,12 @@ class Kontak extends CI_Controller {
 	
 	public function transport()
 	{
+		$this->load->model('MTentang','mt');
+        $bn = $this->mt->get('',['status' => 1])->result();
 		$data = [
 			'title' => 'Portal Smart City Bali - Transportation Route',
 			'link' => 'transport',
+			'galeri' => $bn,
 			'js' => [
                 base_url('assets/js_local/pages/e_lapor.js'),
 			],

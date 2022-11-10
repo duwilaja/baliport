@@ -2,10 +2,10 @@
 <!--Page header-->
 <div class="page-header">
     <div class="page-leftheader">
-        <h4 class="page-title">Tentang</h4>
+        <h4 class="page-title">Transport Route</h4>
         <ol class="breadcrumb pl-0">
             <li class="breadcrumb-item"><a href="#">Konten</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Tentang</li>
+            <li class="breadcrumb-item active" aria-current="page">Transport Route</li>
         </ol>
     </div>
 </div>
@@ -15,7 +15,7 @@
   <div class="col-md-12 col-lg-12">
     <div class="card">
       <div class="card-header">
-          <div class="card-title">Data Tentang</div>
+          <div class="card-title">Data Transport Route</div>
           <div class="card-options ">
               <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
               <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
@@ -60,20 +60,20 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Tambah Tentang</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Tambah Transport Route</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
       </div>
       <div class="modal-body">
-        <form action="javascript::void(0);" id="formAdd" type="post" enctype="multipart/form-data">
+        <form action="javascript:void(0);" id="formAdd" type="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="judul">Judul</label>
             <input type="text" class="form-control" id="" name="judul" placeholder="Judul">
         </div>
         <div class="form-group">
             <label for="judul">Deskripsi</label>
-            <input type="text" class="form-control" id="" name="deskripsi" placeholder="Deskripsi">
+            <textarea class="form-control" id="" name="deskripsi" placeholder="Deskripsi"></textarea>
         </div>
         <div class="form-group">
             <label for="gambar">Gambar</label>
@@ -85,7 +85,7 @@
       </form></div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Batal</button>
-        <button type="submit" class="btn btn-primary" id="btnSave">Simpan</button>
+        <button type="button" onclick="$('#formAdd').submit()" class="btn btn-primary" id="btnSave">Simpan</button>
       </div>
 		
     </div>
@@ -97,24 +97,24 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="editLabel">Ubah Banner</h5>
+        <h5 class="modal-title" id="editLabel">Ubah Transport Route</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
       </div>
       <div class="modal-body">
-        <form action="javascript:void(0);" id="formEdit">
+        <form action="javascript:void(0);" id="formEdit" enctype="multipart/form-data">
         <input type="hidden" name="id" id="id">
         <div class="form-group">
-            <label for="judul">Judul Banner</label>
-            <input type="text" class="form-control" id="title" name="title" placeholder="Judul Banner">
+            <label for="judul">Judul</label>
+            <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul Banner">
         </div>
         <div class="form-group">
-            <label for="subjudul">Sub Judul Banner</label>
-            <input type="text" class="form-control" id="subtitle" name="subtitle" placeholder="Sub Judul Banner">
+            <label for="subjudul">Deskripsi</label>
+            <input type="text" class="form-control" id="deskripsi" name="deskripsi" placeholder="Sub Judul Banner">
         </div>
         <div class="form-group">
-            <label for="gambar">Gambar Artikel</label>
+            <label for="gambar">Gambar</label>
             <input type="file" class="form-control" id="gambar" name="image" aria-describedby="gambarEdit">
             <small id="gambarEdit" class="form-text text-muted">
               Disarankan gambar yang berukuran 1920x700 dan berresolusi hd
@@ -123,40 +123,9 @@
       </form></div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Batal</button>
-        <button type="submit" class="btn btn-primary" id="btnUbah">Ubah</button>
+        <button type="button" onclick="$('#formEdit').submit()" class="btn btn-primary" id="btnUbah">Ubah</button>
       </div>
 		
     </div>
   </div>
 </div>
-
-<!-- Modal Detail-->
-<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="editLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="editLabel">Detail Artikel</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-            <label for="judul">Judul Artikel</label>
-        </div>
-        <div class="form-group">
-            <label for="kategori">Kategori</label>
-        </div>
-        <div class="form-group">
-            <label for="gambar">Gambar Artikel</label>
-        </div>
-        <div class="form-group">
-            <label for="deskripsi">Deskripsi Artikel</label>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Kembali</button>
-      </div>
-    </div>
-  </div>
-</div>				</div>
