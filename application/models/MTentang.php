@@ -105,19 +105,38 @@ class MTentang extends CI_Model {
         
     }
 
-    public function upArtikel($obj='',$where='')
+    public function upTentang($obj='',$where='')
     {
         $q = [];
         $msg = 'Object or Array is null';
         $status = 0 ;
 
         if ($obj != '' || $where != '') {
-            $q = $this->db->update('artikel', $obj,$where);
+            $q = $this->db->update('tentang', $obj,$where);
             if ($this->db->affected_rows() > 0) {
                 $msg = "Success update data";
                 $status = 1;
             }else{
                 $msg = "Failed update data";
+            }
+        }
+
+        return [$msg,$status];
+        
+    }
+	public function delTentang($where='')
+    {
+        $q = [];
+        $msg = 'Object or Array is null';
+        $status = 0 ;
+
+        if ($where != '') {
+            $q = $this->db->delete('tentang',$where);
+            if ($this->db->affected_rows() > 0) {
+                $msg = "Success delete data";
+                $status = 1;
+            }else{
+                $msg = "Failed delete data";
             }
         }
 

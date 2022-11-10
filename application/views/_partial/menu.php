@@ -11,11 +11,12 @@
                     <ul class="sub-menu">
                         <li aria-haspopup="true"><a href="<?= site_url('Banner');?>">Galery</a></li>
                         <li aria-haspopup="true"><a href="<?= site_url('Event');?>">Event</a></li>
-                        <li aria-haspopup="true"><a href="<?= site_url('Dept');?>">Departemen</a></li>
-                        <li aria-haspopup="true"><a href="<?= site_url('Yanrat');?>">Layanan Darurat</a></li>
+                        <!--li aria-haspopup="true"><a href="<?= site_url('Dept');?>">Departemen</a></li>
+                        <li aria-haspopup="true"><a href="<?= site_url('Yanrat');?>">Layanan Darurat</a></li-->
                         <li aria-haspopup="true"><a href="<?= site_url('Artikel');?>">Berita</a></li>
                         <li aria-haspopup="true"><a href="<?= site_url('Artikel/kategori');?>">Kategori Berita</a></li>
                         <li aria-haspopup="true"><a href="<?= site_url('Wisata');?>">Wisata</a></li>
+                        <li aria-haspopup="true"><a href="<?= site_url('Tentang');?>">Transport Route</a></li>
                     </ul>
                 </li>
                 <!-- <li aria-haspopup="true"><a href="<?= site_url('Pengaduan');?>" class="sub-icon"><i class="typcn typcn-chart-pie  hor-icon"></i> Pengaduan</i></a></li> -->
