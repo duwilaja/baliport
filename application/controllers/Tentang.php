@@ -18,7 +18,7 @@ class Tentang extends CI_Controller {
 	{
     $data = [
 			'link' => 'tentang',
-			'title' => 'Tentang'.$this->title,
+			'title' => 'Transport Route'.$this->title,
             'fileScript' => 'tentang.js',
 		];
 		$this->load->view('main',$data);
