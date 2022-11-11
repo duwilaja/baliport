@@ -23,22 +23,23 @@ class Portal extends CI_Controller {
 		//$q = $this->ma->getKategori()->result();
 		$q = $this->mw->berita_homekat();
 		$ar = $this->ma->getArtikel('',7)->result();
-		$yan = $this->my->get('',['status' => 1])->result();
-		$bn = $this->mb->get('',['status' => 1],'',3)->result();
-		$vbn = $this->mb->getvid('',['status' => 1],'',1)->result();
+		//$yan = $this->my->get('',['status' => 1])->result();
+		//$bn = $this->mb->get('',['status' => 1],'',3)->result();
+		//$vbn = $this->mb->getvid('',['status' => 1],'',1)->result();
 		// echo json_encode($bn);die();
 		$data = [
 			'title' => $this->title,
 			'kategori' => $q,
 			'artikel' => $ar,
-			'banner' => $bn,
-			'banner_vid' => $vbn,
-			'yan_rat' => $yan,
+			//'banner' => $bn,
+			//'banner_vid' => $vbn,
+			//'yan_rat' => $yan,
 			'link' =>  'index',
 			'js' => [
                 base_url('assets/js_local/pages/portal.js'),
 			],
-			'slider' => $this->me->event_slider()
+			'slider' => $this->me->event_slider(),
+			'transport' => $this->mt->get('',['status' => 1],'')->result()
 		];
 		$this->load->view('main_portal',$data);
 	}

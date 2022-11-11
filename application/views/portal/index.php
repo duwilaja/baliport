@@ -119,9 +119,25 @@
                         <h2>Public Transportaion Route</h2> 
                     </div>
 
-                    <div class="about-image">
-                        <img src="<?= base_url('bali/');?>assets/img/about.jpg" alt="image">
+                    <div class="row">
+                        <div class="main-news-slides owl-carousel owl-theme">
+<?php foreach($transport as $e){?>
+                    <div class="news-slider-item">
+                        <a href="<?= base_url('kontak/transport');?>">
+                            <img src="<?= base_url("data/tentang/").$e->gambar?>" alt="">
+                        </a>
+
+                        <div class="slider-content">
+                            <!--div class="tag">event</div-->
+                            <h3 style="font-size: 24px;">
+                                <a href="<?= base_url('kontak/transport');?>"><?= $e->judul?></a>
+                            </h3>
+                            <span></span>
+                        </div>
                     </div>
+<?php }?>   
+						</div>
+					</div>
                 </div>
 
                 <div class="tech-news pb-50">
