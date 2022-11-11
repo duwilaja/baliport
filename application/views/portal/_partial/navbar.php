@@ -194,7 +194,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
+                                    <a href="#" class="nav-link <?php echo ($link=='galeri'||$link=='pidio')?"active":"";?>">
                                         Gallery
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
