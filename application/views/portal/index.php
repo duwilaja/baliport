@@ -66,13 +66,13 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="single-team-box">
                             <div class="image">
-								<a href="<?= base_url('portal/berita/?k=').$b->kategori_id?>">
-                                <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
+								<a href="<?= base_url('portal/wisata/?k=').$b->kategori_id?>">
+                                <img src="<?= base_url('data/wisata/').$b->gambar;?>" alt="image">
 								</a>
                             </div>
 
                             <div class="content">
-                                <h3 style="font-size: 14px;"><a href="<?= base_url('portal/berita/?k=').$b->kategori_id?>"><?= $b->kategori?></a></h3>
+                                <h3 style="font-size: 14px;"><a href="<?= base_url('portal/wisata/?k=').$b->kategori_id?>"><?= $b->kategori?></a></h3>
                             </div>
                         </div>
                     </div>
