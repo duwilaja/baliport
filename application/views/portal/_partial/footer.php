@@ -69,7 +69,7 @@
                                     <a href="#"><i class="bx bx-phone-call"></i> Call Center : 111</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="bx bx-map"></i> TMC Bali</a><br><a>Jl. Gunung Sanghyang No.110, Padangsambian, Kec. Denpasar Bar., Kota Denpasar, Bali 80117</a>
+                                    <a href="#"><i class="bx bx-map"></i> BackOffice SmartCity RSP</a><br><a>Ditlantas Polda Bali<br />Jl. WR Supratman No.7, Dangin Puri Kangin, Kec.Denpasar Utara, Kota Denpasar, Bali 80236</a>
                                 </li>
                                 
                             </ul>
