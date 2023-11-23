@@ -45,7 +45,7 @@
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="<?= base_url()?>">
                                 <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="black-logo" alt="image">
                                 <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="white-logo" alt="image">
                             </a>
@@ -57,7 +57,7 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="<?= base_url();?>">
                             <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="black-logo" alt="image">
                             <img src="<?= base_url("bali/")?>assets/img/logo-elingbali-70.png" class="white-logo" alt="image">
                         </a>
@@ -77,19 +77,19 @@
                                     </a>
 									<ul class="dropdown-menu">
                                         <li class="nav-item ">
-                                            <a href="<?= base_url("portal/wisata/?k=1");?>" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=2");?>" class="nav-link">
                                                 Wisata Alam
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="<?= base_url("portal/wisata/?k=2");?>" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=3");?>" class="nav-link">
                                                 Wisata Kuliner
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="<?= base_url("portal/wisata/?k=3");?>" class="nav-link">
+                                            <a href="<?= base_url("portal/wisata/?k=1");?>" class="nav-link">
                                                 Kuliner Tradisional
                                             </a>
                                         </li>
@@ -111,10 +111,16 @@
                                                 Oleh - Oleh Khas
                                             </a>
                                         </li>
+										
+										<li class="nav-item">
+                                            <a href="<?= base_url("portal/wisata/?k=7");?>" class="nav-link">
+                                                Penginapan
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
 
-                                <li class="nav-item">
+                                <!--li class="nav-item">
                                     <a href="#" class="nav-link <?php echo ($link=='e_lapor'||$link=='e_service')?"active":"";?>">
                                         Public Service 
                                         <i class='bx bx-chevron-down'></i>
@@ -153,27 +159,33 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li-->
 
                                 <li class="nav-item">
-                                    <a href="<?= base_url("portal/event");?>" class="nav-link <?php echo ($link=='event')?"active":"";?>">
+                                    <a href="<?= base_url("portal/event");?>" class="nav-link <?php echo ($link=='event'||$link=='event-single')?"active":"";?>">
                                         Event
                                     </a>
                                 </li>
 
-                                <li class="nav-item">
+                                <!--li class="nav-item">
                                     <a href="<?= base_url("kontak/trafic");?>" class="nav-link <?php echo ($link=='trafic')?"active":"";?>">
                                         Traffic
                                     </a>
-                                </li>
+                                </li-->
                                 
                                 <li class="nav-item">
                                     <a href="<?= base_url("portal/berita");?>" class="nav-link <?php echo ($link=='berita')?"active":"";?>">
                                         News
                                     </a>
                                 </li>
+								
+								<li class="nav-item">
+                                    <a href="<?= base_url("portal/galeri");?>" class="nav-link <?php echo ($link=='galeri')?"active":"";?>">
+                                        Gallery
+                                    </a>
+                                </li>
 
-                                <li class="nav-item">
+                                <!--li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Infographic
                                         <i class='bx bx-chevron-down'></i>
@@ -191,9 +203,9 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li-->
 
-                                <li class="nav-item">
+                                <!--li class="nav-item">
                                     <a href="#" class="nav-link <?php echo ($link=='galeri'||$link=='pidio')?"active":"";?>">
                                         Gallery
                                         <i class='bx bx-chevron-down'></i>
@@ -210,7 +222,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li-->
 								
 								<li class="nav-item">
                                     <a href="<?= base_url("kontak/transport");?>" class="nav-link <?php echo ($link=='transport')?"active":"";?>">
@@ -219,12 +231,18 @@
                                 </li>
 								
                                 <li class="nav-item">
+                                    <a href="<?= base_url("perda");?>" class="nav-link <?php echo ($link=='perda')?"active":"";?>">
+                                        Perda
+                                    </a>
+                                </li>
+								
+								<li class="nav-item">
                                     <a href="<?= base_url("kontak");?>" class="nav-link <?php echo ($link=='kontak')?"active":"";?>">
                                         Contact
                                     </a>
                                 </li>
 								
-								<li class="nav-item">
+								<!--li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Download
                                         <i class='bx bx-chevron-down'></i>
@@ -243,7 +261,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li-->
                             </ul>
 
                             <!-- s -->
