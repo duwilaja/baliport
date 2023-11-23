@@ -2,12 +2,12 @@
     <section class="main-news-area">
         <div class="container mb-5">
             <div class="section-title"> 
-                <h2>Photo Gallery</h2> 
+                <h2>Gallery</h2> 
             </div>
             <div class="row">
                 <?php foreach($galeri as $g){?>
 				<div class="col-lg-3" style="margin-bottom: 30px;">
-                    <img onclick="klik(this)" class="myImg" title="<?=$g->title?>" src="<?= base_url('data/banner/').$g->image;?>" alt="<?=$g->subtitle?>">
+                    <img onclick="klik(this)" class="myImg" title="<?=$g->title?>" src="<?= $g->file;?>" alt="<?=$g->title?>">
                 </div>
 				<?php }?>
                 <!--div class="col-lg-2 col-sm-2 ">
