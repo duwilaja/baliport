@@ -1,19 +1,31 @@
-        <!-- Start Main News Area -->
+<?php
+$artikel=$news;
+$car=count($artikel)>7?7:count($artikel);
+$kategori=array();
+$ls=array();
+foreach($wisata as $w){
+	if(!in_array($w->jenis_wisata_id,$ls)){
+		$kategori[]=(object)array("kategori_id"=>$w->jenis_wisata_id,"gambar"=>$w->image,"kategori"=>$w->jenis_wisata);
+		$ls[]=$w->jenis_wisata_id;
+	}
+}
+?>		
+		<!-- Start Main News Area -->
         <section class="main-news-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="single-main-news">
 						<?php if(count($artikel)>0){?>
-                            <a href="<?= base_url('portal/beritaSingle/').$artikel[0]->id."/?x=".str_ireplace(" ","_",$artikel[0]->judul_artikel)?>">
-                                <img src="<?= base_url('data/artikel/').$artikel[0]->gambar;?>" alt="image">
+                            <a href="<?= base_url('portal/beritaSingle/').$artikel[0]->rowid."/?x=".str_ireplace(" ","_",$artikel[0]->judul_news)?>">
+                                <img src="<?= $artikel[0]->image;?>" alt="image">
                             </a>
                             <div class="news-content">
                                 <!-- <div class="tag">National</div> -->
                                 <h3>
-                                    <a href="<?= base_url('portal/beritaSingle/').$artikel[0]->id."/?x=".str_ireplace(" ","_",$artikel[0]->judul_artikel)?>"><?= $artikel[0]->judul_artikel?></a>
+                                    <a href="<?= base_url('portal/beritaSingle/').$artikel[0]->rowid."/?x=".str_ireplace(" ","_",$artikel[0]->judul_news)?>"><?= $artikel[0]->judul_news?></a>
                                 </h3>
-                                <span><?= date('d M Y',strtotime($artikel[0]->ctd_date))?></span>
+                                <span><?= date('d M Y',strtotime($artikel[0]->tanggal_news))?></span>
                             </div>
 						<?php }?>
                         </div>
@@ -22,30 +34,30 @@
                     <div class="col-lg-4">
                         <div class="single-main-news-inner mb-4">
                         <?php if(count($artikel)>1){?>
-                            <a href="<?= base_url('portal/beritaSingle/').$artikel[1]->id."/?x=".str_ireplace(" ","_",$artikel[1]->judul_artikel)?>">
-                                <img src="<?= base_url('data/artikel/').$artikel[1]->gambar;?>" alt="image">
+                            <a href="<?= base_url('portal/beritaSingle/').$artikel[1]->rowid."/?x=".str_ireplace(" ","_",$artikel[1]->judul_news)?>">
+                                <img src="<?= $artikel[1]->image;?>" alt="image">
                             </a>
                             <div class="news-content">
                                 <!-- <div class="tag">National</div> -->
                                 <h3 style="font-size: 20px;">
-                                    <a href="<?= base_url('portal/beritaSingle/').$artikel[1]->id."/?x=".str_ireplace(" ","_",$artikel[1]->judul_artikel)?>"><?= $artikel[1]->judul_artikel?></a>
+                                    <a href="<?= base_url('portal/beritaSingle/').$artikel[1]->rowid."/?x=".str_ireplace(" ","_",$artikel[1]->judul_news)?>"><?= $artikel[1]->judul_news?></a>
                                 </h3>
-                                <span><?= date('d M Y',strtotime($artikel[1]->ctd_date))?></span>
+                                <span><?= date('d M Y',strtotime($artikel[1]->tanggal_news))?></span>
                             </div>
                         <?php }?>
                         </div>
 
                         <div class="single-main-news-inner mb-5">
                         <?php if(count($artikel)>2){?>
-                            <a href="<?= base_url('portal/beritaSingle/').$artikel[2]->id."/?x=".str_ireplace(" ","_",$artikel[2]->judul_artikel)?>">
-                                <img src="<?= base_url('data/artikel/').$artikel[2]->gambar;?>" alt="image">
+                            <a href="<?= base_url('portal/beritaSingle/').$artikel[2]->rowid."/?x=".str_ireplace(" ","_",$artikel[2]->judul_news)?>">
+                                <img src="<?= $artikel[2]->image;?>" alt="image">
                             </a>
                             <div class="news-content">
                                 <!-- <div class="tag">National</div> -->
                                 <h3 style="font-size: 20px;">
-                                    <a href="<?= base_url('portal/beritaSingle/').$artikel[2]->id."/?x=".str_ireplace(" ","_",$artikel[2]->judul_artikel)?>"><?= $artikel[2]->judul_artikel?></a>
+                                    <a href="<?= base_url('portal/beritaSingle/').$artikel[2]->rowid."/?x=".str_ireplace(" ","_",$artikel[2]->judul_news)?>"><?= $artikel[2]->judul_news?></a>
                                 </h3>
-                                <span><?= date('d M Y',strtotime($artikel[2]->ctd_date))?></span>
+                                <span><?= date('d M Y',strtotime($artikel[2]->tanggal_news))?></span>
                             </div>
                         <?php }?>
                         </div>
@@ -67,7 +79,7 @@
                         <div class="single-team-box">
                             <div class="image">
 								<a href="<?= base_url('portal/wisata/?k=').$b->kategori_id?>">
-                                <img src="<?= base_url('data/wisata/').$b->gambar;?>" alt="image">
+                                <img src="<?= $b->gambar;?>" alt="image">
 								</a>
                             </div>
 
@@ -93,22 +105,27 @@
 
                     <div class="row">
                         <div class="main-news-slides owl-carousel owl-theme">
-<?php foreach($slider as $e){?>
+<?php $i=0;
+foreach($eventx as $e){
+	$i++;
+	?>
                     <div class="news-slider-item">
-                        <a href="<?= base_url('portal/eventSingle/').$e->id."/?x=".str_ireplace(" ","_",$e->judul_event);?>">
+                        <a href="<?= base_url('portal/eventSingle/').$e->rowid."/?x=".str_ireplace(" ","_",$e->nama_event);?>">
                             <!--img src="<?= base_url('bali/');?>assets/img/main-news-slider/main-news-slider-1.jpg" alt="image"-->
-							<img src="<?= base_url().substr($e->uploadedfile,1)?>" alt="">
+							<img src="<?= $e->image ?>" alt="">
                         </a>
 
                         <div class="slider-content">
                             <!--div class="tag">event</div-->
                             <h3 style="font-size: 24px;">
-                                <a href="<?= base_url('portal/eventSingle/').$e->id."/?x=".str_ireplace(" ","_",$e->judul_event);?>"><?= $e->judul_event?></a>
+                                <a href="<?= base_url('portal/eventSingle/').$e->rowid."/?x=".str_ireplace(" ","_",$e->nama_event);?>"><?= $e->nama_event?></a>
                             </h3>
-                            <span><a href=""><?= $e->lokasi?></a> / <?= date('d M Y',strtotime($e->tgl_start))?> - <?= date('d M Y',strtotime($e->tgl_end))?></span>
+                            <span><a href=""><?= date('d M Y',strtotime($e->tgl_event))?> - <?= date('d M Y',strtotime($e->tgl_berakhir))?></span>
                         </div>
                     </div>
-<?php }?>   
+<?php 
+if($i>4){ break; }
+}?>   
 						</div>
 					</div>
                 </div>
@@ -147,18 +164,18 @@
 
 
                     <div class="row">
-					<?php for($i=3;$i<count($artikel);$i++){?>
+					<?php for($i=3;$i<$car;$i++){?>
                         <div class="col-lg-3 col-sm-3">
                             <div class="single-tech-news-box">
-                                <a href="<?= base_url('portal/beritaSingle/').$artikel[$i]->id."/?x=".str_ireplace(" ","_",$artikel[$i]->judul_artikel)?>">
-                                    <img src="<?= base_url('data/artikel/').$artikel[$i]->gambar;?>" alt="image">
+                                <a href="<?= base_url('portal/beritaSingle/').$artikel[$i]->rowid."/?x=".str_ireplace(" ","_",$artikel[$i]->judul_news)?>">
+                                    <img src="<?= $artikel[$i]->image;?>" alt="image">
                                 </a>
                                 
                                 <div class="tech-news-content">
                                     <h3>
-                                        <a href="<?= base_url('portal/beritaSingle/').$artikel[$i]->id."/?x=".str_ireplace(" ","_",$artikel[$i]->judul_artikel)?>"><?= $artikel[$i]->judul_artikel?></a>
+                                        <a href="<?= base_url('portal/beritaSingle/').$artikel[$i]->rowid."/?x=".str_ireplace(" ","_",$artikel[$i]->judul_news)?>"><?= $artikel[$i]->judul_news?></a>
                                     </h3>
-                                    <p><?= date('d M Y',strtotime($artikel[$i]->ctd_date))?></p>
+                                    <p><?= date('d M Y',strtotime($artikel[$i]->tanggal_news))?></p>
                                 </div>
                             </div>
                         </div>

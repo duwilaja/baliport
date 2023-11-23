@@ -5,8 +5,8 @@
                     <div class="col-lg-12">
                         <aside class="widget-area">
                             <section class="widget widget_tag_cloud">
-                                <h3 class="widget-title">Explore Bali</h3>
-                                <div class="widget widget_search">
+                                <h3 class="widget-title">News</h3>
+                                <!--div class="widget widget_search">
                                     <form class="search-form">
                                         <label>
                                             <span class="screen-reader-text">Search for:</span>
@@ -16,11 +16,11 @@
                                             <i class='bx bx-search'></i>
                                         </button>
                                     </form>
-                                </div>
+                                </div--
                                 <div class="tagcloud">
-								<?php foreach($kategori as $k){?>
-                                    <a href="<?= base_url('portal/berita/').$this->uri->segment(3).'?k='.$k->id?>" <?= $k->id==$kid?'class="aktip"':''; ?>><?= $k->kategori?></a>
-								<?php }?>
+								<php foreach($kategori as $k){?>
+                                    <a href="<= base_url('portal/berita/').$this->uri->segment(3).'?k='.$k->id?>" <= $k->id==$kid?'class="aktip"':''; ?>><= $k->kategori?></a>
+								<php }?>
                                     <!--a href="#">Kuliner Tradisional</a>
                                     <a href="#">Adat & Budaya</a>
                                     <a href="#">Rekreasi</a>
@@ -28,7 +28,7 @@
                                     <a href="#">Travel Agensi</a>
                                     <a href="#">Penginapan</a>
                                     <a href="#">Pelayanan Publik</a-->
-                                </div>
+                                </div-->
 
                                 
                             </section>
@@ -37,46 +37,25 @@
                         </aside>
                     </div>
 
-                    <div class="container">
-
-                        <div class="row">
-						<?php foreach($utama as $b){?>
-                            <div class="col-lg-3">
-                                <div class="single-main-default-news">
-                                    <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>">
-                                        <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
-                                    </a>
-                                    <div class="news-content">
-                                        <div class="tag"><?= $b->kategori ?></div>
-                                        <h3>
-                                            <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>"><?= $b->judul_artikel ?></a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-						<?php }?>
-                        </div>
-                    </div>
-                    
                     <div class="col-lg-8">
 					<?php foreach($artikel as $b){?>
                         <div class="single-news-item">
                             <div class="row align-items-center">
                                 <div class="col-lg-4">
                                     <div class="news-image">
-                                        <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>">
-                                            <img src="<?= base_url('data/artikel/').$b->gambar;?>" alt="image">
+                                        <a href="<?= base_url('portal/beritaSingle/').$b->rowid."/?x=".str_ireplace(" ","_",$b->judul_news)?>">
+                                            <img src="<?= $b->image;?>" alt="image">
                                         </a>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-8">
                                     <div class="news-content">
-                                        <span><?= $b->kategori ?></span>
+                                        <span><?= $b->jenis_berita ?></span>
                                         <h3>
-                                            <a href="<?= base_url('portal/beritaSingle/').$b->id."/?x=".str_ireplace(" ","_",$b->judul_artikel)?>"><?= $b->judul_artikel ?></a>
+                                            <a href="<?= base_url('portal/beritaSingle/').$b->rowid."/?x=".str_ireplace(" ","_",$b->judul_news)?>"><?= $b->judul_news ?></a>
                                         </h3>
-                                        <?= substr($b->deskripsi,0,100)."..." ?>
+                                        <?= substr($b->isi_konten,0,75)."..." ?>
                                         <!-- <p><a href="#">Patricia</a> / 28 September, 2022</p> -->
                                     </div>
                                 </div>

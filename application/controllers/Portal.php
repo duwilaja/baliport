@@ -8,37 +8,49 @@ class Portal extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-        $this->load->model('MArtikel','ma');
-        $this->load->model('MBanner','mb');
-        $this->load->model('MEvent','me');
-        $this->load->model('MDept','md');
+        //$this->load->model('MArtikel','ma');
+        //$this->load->model('MBanner','mb');
+        //$this->load->model('MEvent','me');
+        //$this->load->model('MDept','md');
         $this->load->model('MTentang','mt');
-        $this->load->model('MYanrat','my');
-		$this->load->model('MWisata','mw');
+        //$this->load->model('MYanrat','my');
+		//$this->load->model('MWisata','mw');
+		
+		$this->load->model("MApi","api");
         
 	}
 
 	public function index()
 	{
 		//$q = $this->ma->getKategori()->result();
-		$q = $this->mw->berita_homekat();
-		$ar = $this->ma->getArtikel('',7)->result();
+		//$q = $this->mw->berita_homekat();
+		//$ar = $this->ma->getArtikel('',7)->result();
 		//$yan = $this->my->get('',['status' => 1])->result();
 		//$bn = $this->mb->get('',['status' => 1],'',3)->result();
 		//$vbn = $this->mb->getvid('',['status' => 1],'',1)->result();
-		// echo json_encode($bn);die();
+		
+		$nyus=$this->api->get("news");
+		$arx=json_decode($nyus[1]);
+		$artix=isset($arx->data)?$arx->data:array();
+		
+		$ipen=$this->api->get("event");
+		$evx=json_decode($ipen[1]);
+		$eventx=isset($evx->data)?$evx->data:array();
+		
+		$wis=$this->api->get("wisata");
+		$wix=json_decode($wis[1]);
+		$wisx=isset($wix->data)?$wix->data:array();
+		
+		// echo json_encode($eventx);die();
 		$data = [
 			'title' => $this->title,
-			'kategori' => $q,
-			'artikel' => $ar,
-			//'banner' => $bn,
-			//'banner_vid' => $vbn,
-			//'yan_rat' => $yan,
+			'news' => $artix,
+			'eventx' => $eventx,
+			'wisata' => $wisx,
 			'link' =>  'index',
 			'js' => [
-                base_url('assets/js_local/pages/portal.js'),
+                //base_url('assets/js_local/pages/portal.js'),
 			],
-			'slider' => $this->me->event_slider(),
 			'transport' => $this->mt->get('',['status' => 1],'')->result()
 		];
 		$this->load->view('main_portal',$data);
@@ -46,16 +58,13 @@ class Portal extends CI_Controller {
 
 	public function beritaSingle($id)
 	{
-		$ar = $this->ma->getArtikel($id)->row();
-		$recentAr = $this->ma->getResentArtikelPerhari()->result();
-		$tags = $this->ma->getKategori()->result();
-		$event = $this->me->get('',['status' => 1],'','3')->result();
+		$ev=$this->api->get('news/'.$id);
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
+		
 		$data = [
 			'title' => $this->title,
-			'artikel' => $ar,
-			'recentAr' => $recentAr,
-			'tags' => $tags,
-			'event' => $event,
+			'artikel' => $events,
 			'link' => 'berita-single',
 			'js' => [
                 base_url('assets/js_local/pages/berita-single.js'),
@@ -64,12 +73,13 @@ class Portal extends CI_Controller {
 		$this->load->view('main_portal',$data);
 	}
 
-	public function berita()
+	public function berita($from=0)
 	{
-		// $q = $this->ma->getKategori()->result();
-		// $ar = $this->ma->getArtikel()->result();
-		$k=$this->input->get('k');
-		$jumlah_data_berita = $this->ma->jumlah_data_berita($k);
+		$ev=$this->api->get('news');
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
+		
+		$jumlah_data_berita = count($events);
 		$config['reuse_query_string'] = true;
 		$this->load->library('pagination');
 		$config['base_url'] = base_url().'Portal/berita/';
@@ -93,31 +103,34 @@ class Portal extends CI_Controller {
 		$config['last_tag_close'] = '';
 		$config['first_tag_open'] = '';
 		$config['first_tag_close'] = '';
-		$from = $this->uri->segment(3);
+		//$from = $this->uri->segment(3);
 		$this->pagination->initialize($config);
 		$data = [
-			'title' => $this->title.' - Explore',
-			'artikel' => $this->ma->data_berita($config['per_page'],$from,$k),
-			'utama' => $this->ma->berita_utama(),
-			'kategori' => $this->ma->kategories(),
+			'title' => $this->title.' - News',
+			'artikel' => array_slice($events,$from,$config['per_page']),
+			//'utama' => $this->ma->berita_utama(),
+			//'kategori' => $this->ma->kategories(),
 			'link' =>  'berita',
-			'kid' => $k
+			//'kid' => $k
 		];
 		$this->load->view('main_portal',$data);
 	}
 
   public function eventSingle($id)
 	{
-		$ev = $this->me->get($id)->row();
+		//$ev = $this->me->get($id)->row();
+		$ev=$this->api->get('event/'.$id);
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
 		// $event = $this->me->get('',['status' => 1],'','3')->result();
 		$data = [
 			'title' => $this->title,
-			'event' => $ev,
+			'event' => $events,
 			// 'event' => $event,
 			'link' => 'event-single',
 			'js' => [
         // base_url('assets/js_local/pages/event.js'),
-        base_url('assets/js_local/pages/event-singel.js'),
+        //base_url('assets/js_local/pages/event-singel.js'),
 			],
 		];
 		$this->load->view('main_portal',$data);
@@ -130,11 +143,14 @@ class Portal extends CI_Controller {
 	}
 
 
-  public function event()
+  public function event($from=0)
 	{
-    // $event = $this->me->get()->result();
-    $this->load->library('pagination');
-		$jumlah_data_event = $this->me->jumlah_data_event();
+		$ev=$this->api->get('event');
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
+		
+	$this->load->library('pagination');
+		$jumlah_data_event = count($events);
 		$config['base_url'] = base_url().'portal/event/';
 		$config['total_rows'] = $jumlah_data_event;
 		$config['per_page'] = 10;
@@ -156,18 +172,18 @@ class Portal extends CI_Controller {
 		$config['last_tag_close'] = '';
 		$config['first_tag_open'] = '';
 		$config['first_tag_close'] = '';
-		$from = $this->uri->segment(3);
+		//$from = $this->uri->segment(3);
 		$this->pagination->initialize($config);
 		$data = [
-      'event' => $this->me->data_event($config['per_page'],$from),
+      'event' => array_slice($events,$from,$config['per_page']),
       // 'event' => $event,
 			'title' => $this->title.' - Event',
 			'link' =>  'event',
 			'js' => [
                 //base_url('assets/js_local/pages/event.js'),
-                base_url('assets/js_local/pages/event-singel.js'),
+                //base_url('assets/js_local/pages/event-singel.js'),
 			],
-			'slider' => $this->me->event_slider()
+			//'slider' => $this->me->event_slider()
 		];
 		$this->load->view('main_portal',$data);
 	}
@@ -258,12 +274,16 @@ class Portal extends CI_Controller {
 		$this->load->view('main_portal',$data);
 	}
 	
-	public function wisata()
+	public function wisata($from=0)
 	{
-		// $q = $this->ma->getKategori()->result();
-		// $ar = $this->ma->getArtikel()->result();
 		$k=$this->input->get('k');
-		$jumlah_data_berita = $this->mw->jumlah_data_wisata($k);
+		
+		$ev=$this->api->get('wisata?jenis_wisata_id='.$k);
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
+	
+		
+		$jumlah_data_berita = count($events);
 		$config['reuse_query_string'] = true;
 		$this->load->library('pagination');
 		$config['base_url'] = base_url().'Portal/wisata/';
@@ -287,13 +307,15 @@ class Portal extends CI_Controller {
 		$config['last_tag_close'] = '';
 		$config['first_tag_open'] = '';
 		$config['first_tag_close'] = '';
-		$from = $this->uri->segment(3);
+		//$from = $this->uri->segment(3);
+		//$config['reuse_query_string'] = true;
+		//$config['suffix'] = '?k='.$k;
 		$this->pagination->initialize($config);
 		$data = [
 			'title' => $this->title.' - Wisata',
-			'artikel' => $this->mw->data_berita($config['per_page'],$from,$k),
+			'artikel' => array_slice($events,$from,$config['per_page']),
 			//'utama' => $this->mw->berita_utama(),
-			'kategori' => $this->mw->kategories(),
+			'kategori' => array(),
 			'link' =>  'wisata',
 			'kid' => $k
 		];

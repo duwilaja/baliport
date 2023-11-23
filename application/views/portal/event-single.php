@@ -4,18 +4,18 @@
       <div class="card-body">
         <!-- <h5 class="card-title">Card title</h5> --
         <div class="owl-carousel owl-theme">
-            <?php 
+            <php 
             $image_arr = explode(";", $event->uploadedfile);
             foreach( $image_arr as $x ): ?>
-              <div class="item"> <img src="<?= base_url($x) ?>" alt="..."> </div>
-            <?php endforeach; ?>
+              <div class="item"> <img src="<= base_url($x) ?>" alt="..."> </div>
+            <php endforeach; ?>
         </div>
         <div class="new-txt">
           <ul class="news-meta">
-            <li><?php $start_date = strtotime( $event->tgl_start ); $sd = date( 'd M,Y', $start_date ); echo $sd;?> - <?php $start_end = strtotime( $event->tgl_end ); $ed = date( 'd M,Y', $start_end ); echo $ed;?></li>
+            <li><php $start_date = strtotime( $event->tgl_start ); $sd = date( 'd M,Y', $start_date ); echo $sd;?> - <php $start_end = strtotime( $event->tgl_end ); $ed = date( 'd M,Y', $start_end ); echo $ed;?></li>
           </ul>
-          <h4><?= $event->judul_event?></h4>
-          <p><?php echo nl2br($event->deskripsi_event)?></p>
+          <h4><= $event->judul_event?></h4>
+          <p><php echo nl2br($event->deskripsi_event)?></p>
         </div>
       </div>
     </div>
@@ -30,12 +30,12 @@
                        
                         <div class="blog-details-desc">
                             <div class="article-content mt-0">
-                                <span><a href="#"><?= $event->lokasi?></a> / <?= date('d M Y',strtotime($event->tgl_start))?> - <?= date('d M Y',strtotime($event->tgl_end))?></span>
-                                <h3><?= $event->judul_event?></h3>
+                                <span><a href="#"><?= date('d M Y',strtotime($event->tgl_event))?> - <?= date('d M Y',strtotime($event->tgl_berakhir))?></span>
+                                <h3><?= $event->nama_event?></h3>
                                 <div class="article-image">
-                                    <img src="<?= base_url().substr($event->uploadedfile,1)?>" alt="image">
+                                    <img src="<?= $event->image ?>" alt="image">
                                 </div> <br>
-                                <?= nl2br($event->deskripsi_event)?>
+                                <?= nl2br($event->isi_konten)?>
                             </div>
 						</div>
                     </div>
