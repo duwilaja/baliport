@@ -6,12 +6,12 @@
                        
                         <div class="blog-details-desc">
                             <div class="article-content mt-0">
-                                <span><a href="#"><?= $artikel->kategori?></a> / <?= date('d M Y',strtotime($artikel->ctd_date))?></span>
-                                <h3><?= $artikel->judul_artikel?></h3>
+                                <span><a href="#"><?= $artikel->jenis_berita?></a> / <?= date('d M Y',strtotime($artikel->tanggal_news))?></span>
+                                <h3><?= $artikel->judul_news?></h3>
                                 <div class="article-image">
-                                    <img src="<?= base_url("data/artikel/").$artikel->gambar;?>" alt="image">
+                                    <img src="<?= $artikel->image;?>" alt="image">
                                 </div> <br>
-                                <?= nl2br($artikel->deskripsi)?>
+                                <?= nl2br($artikel->isi_konten)?>
                             </div>
 						</div>
                     </div>

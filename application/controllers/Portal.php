@@ -324,16 +324,35 @@ class Portal extends CI_Controller {
 	
 	public function wisataSingle($id)
 	{
-		$ev = $this->mw->getwisata($id)->row();
-		// $event = $this->me->get('',['status' => 1],'','3')->result();
+		$ev=$this->api->get('wisata/'.$id);
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
+		
 		$data = [
 			'title' => $this->title,
-			'artikel' => $ev,
+			'artikel' => $events,
 			// 'event' => $event,
 			'link' => 'wisata-single',
 			'js' => [
         // base_url('assets/js_local/pages/event.js'),
-        base_url('assets/js_local/pages/event-singel.js'),
+        //base_url('assets/js_local/pages/event-singel.js'),
+			],
+		];
+		$this->load->view('main_portal',$data);
+	}
+	
+	public function galeri()
+	{
+		$ev=$this->api->get('gallery');
+		$evx=json_decode($ev[1]);
+		$events=isset($evx->data)?$evx->data:array();
+		
+		$data = [
+			'title' => $this->title.' - Gallery',
+			'link' => 'galeri',
+			'galeri' => $events,
+			'js' => [
+                //base_url('assets/js_local/pages/e_lapor.js'),
 			],
 		];
 		$this->load->view('main_portal',$data);
