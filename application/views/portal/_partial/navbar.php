@@ -71,7 +71,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link  <?php echo ($link=='wisata')?"active":"";?>">
+                                    <a href="#" class="nav-link  <?php echo ($link=='wisata'||$link=='wisata-single')?"active":"";?>">
                                         Wisata 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
@@ -230,11 +230,11 @@
                                     </a>
                                 </li>
 								
-                                <li class="nav-item">
-                                    <a href="<?= base_url("perda");?>" class="nav-link <?php echo ($link=='perda')?"active":"";?>">
+                                <!--li class="nav-item">
+                                    <a href="<?= base_url("portal/perda");?>" class="nav-link <?php echo ($link=='perda')?"active":"";?>">
                                         Perda
                                     </a>
-                                </li>
+                                </li-->
 								
 								<li class="nav-item">
                                     <a href="<?= base_url("kontak");?>" class="nav-link <?php echo ($link=='kontak')?"active":"";?>">
