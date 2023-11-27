@@ -15,7 +15,7 @@ class Kontak extends CI_Controller {
 			'title' => 'Portal Smart City Bali - Kontak',
 			'link' => 'kontak',
 			'js' => [
-                base_url('assets/js_local/pages/e_lapor.js'),
+                //base_url('assets/js_local/pages/e_lapor.js'),
 			],
 		];
 		$this->load->view('main_portal',$data);

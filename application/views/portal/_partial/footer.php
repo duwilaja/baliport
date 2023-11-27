@@ -86,7 +86,7 @@
                 <div class="copyright-area-content">
                     <p>
                         Copyright © <script>document.write(new Date().getFullYear())</script>, by 
-                        <a href="https://envytheme.com/" target="_blank">Jepun Bali Developer</a>
+                        <a href="#">ElingBali Developer</a>
                     </p>
                 </div>
             </div>
