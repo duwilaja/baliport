@@ -229,8 +229,13 @@
                                         Transportation Route 
                                     </a>
                                 </li>
+								<!--li class="nav-item">
+                                    <a href="<?= base_url("portal/maps");?>" class="nav-link <?php echo ($link=='maps')?"active":"";?>">
+                                        Public Services 
+                                    </a>
+                                </li>
 								
-                                <!--li class="nav-item">
+                                <li class="nav-item">
                                     <a href="<?= base_url("portal/perda");?>" class="nav-link <?php echo ($link=='perda')?"active":"";?>">
                                         Perda
                                     </a>
@@ -270,7 +275,7 @@
                 </div>
             </div>
 
-            <div class="others-option-for-responsive">
+            <div class="others-option-for-responsive" style="display:none;">
                 <div class="container">
                     <div class="dot-menu">
                         <div class="inner">
