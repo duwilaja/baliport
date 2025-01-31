@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="contact-map">
-                            <iframe src="https://www.google.com/maps/embed/v1/place?q=TMC+Bali+Jl.+Gunung+Sanghyang+No.110,+Padangsambian,+Kec.+Denpasar+Bar.,+Kota+Denpasar,+Bali+80117,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                            <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jl. WR Supratman No.6, Dangin Puri Kangin, Kec. Denpasar Utara, Kota Denpasar, Bali 80236&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                         </div>
                     </div>
 
@@ -15,18 +15,18 @@
                                 
                                 <ul class="contact-info">
                                     <li>
-                                        <span>TMC Bali</span><br>
-                                        Jl. Gunung Sanghyang No.110, Padangsambian, Kec. Denpasar Bar., Kota Denpasar, Bali 80117
+                                        <span>Smart City Ditlantas Polda Bali</span><br>
+                                        Jl. WR Supratman No.6, Dangin Puri Kangin, Kec. Denpasar Utara, Kota Denpasar, Bali 80236
                                     </li>
 
                                     <li>
                                         <span>Email</span><br>
-                                        smartcitybali@mail.com
+                                        smartcitybali@gmail.com
                                     </li>
 
                                     <li>
                                         <span>Call Center</span><br>
-                                        111
+                                        +62 813-3735-6353
                                     </li>
 
                                     

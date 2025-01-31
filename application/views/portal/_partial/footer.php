@@ -11,23 +11,23 @@
                             <ul class="social">
                                 <p>Find us on social media :</p>
                                 <li>
-                                    <a href="#" class="facebook" target="_blank">
+                                    <a href="https://web.facebook.com/bali.smartcity" class="facebook" target="_blank">
                                         <i class='bx bxl-facebook'></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="twitter" target="_blank">
+                                    <a href="www.instagram.com/smartcity.bali?igsh=OW44YXlkNjF5OW" class="instagram" target="_blank">
                                         <i class='bx bxl-instagram'></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="linkedin" target="_blank">
+                                    <a href="https://x.com/eling_bali" class="twitter" target="_blank">
                                         <i class='bx bxl-twitter'></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="linkedin" target="_blank">
-                                        <i class='bx bxl-youtube'></i>
+                                    <a href="https://www.tiktok.com/@smartcitybali?_t=8sJDP28A7g9&_r=1" class="tiktok" target="_blank">
+                                        <i class='bx bxl-tiktok'></i>
                                     </a>
                                 </li>
                             </ul>
@@ -38,7 +38,7 @@
 
                     <div class="col-lg-4 col-md-4">
                         <div class="single-footer-widget">
-                            <h2>Smart City Bali</h2>
+                            <h2>Smart City Ditlantas Polda Bali</h2>
 
                             <ul class="useful-links-list">
                                 <li>
@@ -63,13 +63,13 @@
 
                             <ul class="useful-links-list">
                                 <li>
-                                    <a href="#"><i class="bx bx-envelope"></i>  Email : smartcitybali@mail.com</a>
+                                    <a href="#"><i class="bx bx-envelope"></i>  Email : smartcitybali@gmail.com</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="bx bx-phone-call"></i> Call Center : 111</a>
+                                    <a href="#"><i class="bx bx-phone-call"></i> Call Center : +62 813-3735-6353</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="bx bx-map"></i> TMC Bali</a><br><a>Jl. Gunung Sanghyang No.110, Padangsambian, Kec. Denpasar Bar., Kota Denpasar, Bali 80117</a>
+                                    <a href="#"><i class="bx bx-map"></i></a><br><a>Jl. WR Supratman No.6, Dangin Puri Kangin, Kec. Denpasar Utara, Kota Denpasar, Bali 80236</a>
                                 </li>
                                 
                             </ul>
