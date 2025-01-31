@@ -16,7 +16,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="www.instagram.com/smartcity.bali?igsh=OW44YXlkNjF5OW" class="instagram" target="_blank">
+                                    <a href="https://www.instagram.com/smartcity.bali?igsh=OW44YXlkNjF5OW" class="instagram" target="_blank">
                                         <i class='bx bxl-instagram'></i>
                                     </a>
                                 </li>
