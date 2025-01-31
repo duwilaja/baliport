@@ -9,7 +9,7 @@
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="<?= base_url('bali/');?>assets/css/meanmenu.css">
         <!-- Boxicons CSS -->
-        <link rel="stylesheet" href="<?= base_url('bali/');?>assets/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <!-- Owl Carousel CSS -->
         <link rel="stylesheet" href="<?= base_url('bali/');?>assets/css/owl.carousel.min.css">
         <!-- Owl Carousel Default CSS -->
@@ -25,6 +25,7 @@
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="<?= base_url('bali/');?>assets/css/responsive.css">
 		
+	
 		<title><?= $title?></title>
 
         <link rel="icon" type="image/png" href="<?= base_url('bali/');?>assets/img/icon-jepun.png">
